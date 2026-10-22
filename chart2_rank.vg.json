@@ -1,0 +1,77 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 600,
+  "height": 300,
+  "title": "Shift in Most Used Devices in Australia",
+  "data": {
+    "url": "js/data/trends_clean.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum['\ufeffDevice'] != null ? datum['\ufeffDevice'] : datum.Device",
+      "as": "Device"
+    },
+    {
+      "filter": "indexof(['Mobile phone', 'Laptop computer', 'Smart TV', 'Tablet', 'Desktop computer', 'Digital media player/streaming device'], datum.Device) >= 0"
+    },
+    {
+      "fold": ["2017", "2018", "2019", "2020", "2021", "2022", "2023", "2024", "2025"],
+      "as": ["Year", "Percentage"]
+    },
+    {
+      "filter": "isValid(datum.Percentage) && datum.Percentage != '' && datum.Percentage != null"
+    },
+    {
+      "calculate": "toNumber(datum.Percentage)",
+      "as": "Percentage_Num"
+    },
+    {
+      "window": [{"op": "rank", "as": "Rank"}],
+      "groupby": ["Year"],
+      "sort": [{"field": "Percentage_Num", "order": "descending"}]
+    }
+  ],
+  "params": [
+    {
+      "name": "device_highlight",
+      "select": {"type": "point", "fields": ["Device"]},
+      "bind": "legend"
+    }
+  ],
+  "mark": {
+    "type": "line",
+    "point": {"size": 100},
+    "strokeWidth": 3
+  },
+  "encoding": {
+    "x": {
+      "field": "Year",
+      "type": "ordinal",
+      "title": "Year",
+      "axis": {"labelAngle": 0}
+    },
+    "y": {
+      "field": "Rank",
+      "type": "quantitative",
+      "title": "Usage Rank",
+      "scale": {"reverse": true, "domain": [1, 6]},
+      "axis":null
+    },
+    "color": {
+      "field": "Device",
+      "type": "nominal",
+      "title": "Device Type",
+      "scale": {"scheme": "category20"}
+    },
+    "opacity": {
+      "condition": {"param": "device_highlight", "value": 1.0},
+      "value": 0.15
+    },
+    "tooltip": [
+      {"field": "Device", "type": "nominal", "title": "Device"},
+      {"field": "Year", "type": "ordinal", "title": "Year"},
+      {"field": "Rank", "type": "quantitative", "title": "Rank Position"},
+      {"field": "Percentage_Num", "type": "quantitative", "title": "Adoption Rate (%)"}
+    ]
+  }
+}

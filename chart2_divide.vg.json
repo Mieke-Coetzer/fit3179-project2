@@ -1,0 +1,102 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 800,
+  "height": 300,
+  "title": {
+    "text": "Metro vs. Regional Apps",
+    "fontSize": 18,
+    "subtitle": "Regional adoption vs. Metropolitan adoption (%) of popular apps in 2025"
+  },
+  "data": {
+    "url": "js/data/metro_clean.csv"
+  },
+  "transform": [
+    {
+      "calculate": "datum['\ufeffWebsites/Apps'] != null ? datum['\ufeffWebsites/Apps'] : datum['Websites/Apps']",
+      "as": "App"
+    },
+    {
+      "filter": "indexof(['Facebook', 'Facebook Messenger', 'YouTube', 'Instagram', 'WhatsApp', 'TikTok', 'FaceTime', 'Snapchat', 'Reddit', 'LinkedIn'], datum.App) >= 0"
+    },
+    {
+      "lookup": "App",
+      "from": {
+        "data": {"url": "js/data/regional_clean.csv"},
+        "key": "Websites/Apps",
+        "fields": ["2025"]
+      },
+      "as": ["Regional_2025_Val"]
+    },
+    {
+      "calculate": "toNumber(datum['2025']) * 100",
+      "as": "Metro_Adoption"
+    },
+    {
+      "calculate": "toNumber(datum['Regional_2025_Val']) * -100",
+      "as": "Regional_Adoption"
+    },
+    {
+      "filter": "isValid(datum.Metro_Adoption)"
+    },
+    {
+      "fold": ["Metro_Adoption", "Regional_Adoption"],
+      "as": ["Location_Type", "Percentage"]
+    },
+    {
+      "filter": "isValid(datum.Percentage)"
+    },
+    {
+      "calculate": "abs(datum.Percentage)",
+      "as": "Display_Percentage"
+    }
+  ],
+  "layer": [
+    {
+      "mark": {
+        "type": "bar",
+        "cornerRadius": 3
+      },
+      "encoding": {
+        "y": {
+          "field": "App",
+          "type": "nominal",
+          "title": "Apps",
+          "sort": "-x"
+        },
+        "x": {
+          "field": "Percentage",
+          "type": "quantitative",
+          "title": "(%)",
+          "scale": {"domain": [-100, 100]},
+          "axis": null
+        },
+        "color": {
+          "field": "Location_Type",
+          "type": "nominal",
+          "title": "Location Type",
+          "scale": {
+            "domain": ["Metro_Adoption", "Regional_Adoption"],
+            "range": ["#005f73", "#e4a48d"]
+          }
+        },
+        "tooltip": [
+          {"field": "App", "type": "nominal", "title": "Platform"},
+          {"field": "Display_Percentage", "type": "quantitative", "title": "Adoption Rate (%)", "format": ".1f"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "align": "left",
+        "baseline": "middle",
+        "dx": 3
+      },
+      "encoding": {
+        "y": {"field": "App", "type": "nominal", "sort": "-x"},
+        "x": {"field": "Percentage", "type": "quantitative", "scale": {"domain": [-100, 100]}},
+        "text": {"field": "Display_Percentage", "type": "quantitative", "format": ".0f"}
+      }
+    }
+  ]
+}
