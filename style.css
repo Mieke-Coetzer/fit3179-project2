@@ -1,0 +1,96 @@
+/* --- Page & Background Setup (Breaks the blank white space) --- */
+body {
+  background-color: #f4f7f6; /* Soft neutral background to reduce harsh white glare */
+  color: #2c3e50;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; /* Clean readable font */
+  margin: 0;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+/* --- 3-Column Dashboard Grid --- */
+.dashboard-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+  gap: 20px;
+  max-width: 1300px;
+  margin: 0 auto;
+}
+
+/* --- Section Layout Variants --- */
+
+/* Layout 1: Stacked items on the LEFT, Big chart on the RIGHT (like your global adoption section) */
+.layout-left-stack {
+  display: grid;
+  grid-template-columns: 1fr 2fr; /* Column 1 is smaller, Column 2 is twice as wide */
+  gap: 20px;
+  align-items: start;
+}
+
+/* Layout 2: Big chart/text on the LEFT, Stacked items on the RIGHT */
+.layout-right-stack {
+  display: grid;
+  grid-template-columns: 2fr 1fr; /* Column 1 is wider, Column 2 (stack) is on the right */
+  gap: 20px;
+  align-items: start;
+}
+
+/* Layout 3: Balanced 3-column layout where content fills "both" sides evenly */
+.layout-balanced-both {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr; /* 3 equal columns */
+  gap: 20px;
+  align-items: start;
+}
+
+/* Flex helper for vertical stacking inside any sidebar */
+.vertical-stack {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+/* --- Card Containers (Figure-Ground Separation) --- */
+.chart-card {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 15px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+.chart-card-large {
+  background: #ffffff;
+  border: 1px solid #e0e0e0;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.04);
+}
+
+/* --- Text & Annotation Styling --- */
+h1, h2, h3 {
+  color: #003742; /* Matches your rich teal/blue thematic palette */
+  margin-top: 0.5em;
+  margin-bottom: 0.7em;
+}
+
+p {
+  line-height: 1.6;
+  font-size: 0.95rem;
+  color: #333333;
+}
+
+/* --- Custom Drawn Asset / Symbol Placeholder --- */
+.asset-container {
+  text-align: center;
+  padding: 10px;
+  background: #e8f1f2; /* Soft teal-tinted accent box */
+  border-radius: 8px;
+  border: 2px dashed #002423;
+}
+
+.asset-container img {
+  max-width: 100%;
+  height: auto;
+  border-radius: 6px;
+}

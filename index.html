@@ -1,34 +1,68 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>The Inescapable Screen: Digital Communication</title>
-    
-    <!-- Pure.css for Responsive Layout -->
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/pure-min.css">
-    <link rel="stylesheet" href="https://unpkg.com/purecss@2.0.6/build/grids-responsive-min.css">
-    
-    <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;700&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
-    
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/style.css">
+<!DOCTYPE html> 
+<html lang="en"> 
 
-    <!-- Vega & Vega-Lite Libraries -->
-    <script src="https://cdn.jsdelivr.net/npm/vega@5.22.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.6.0"></script>
-    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.21.0"></script>
+<head> 
+    <meta charset="UTF-8"> 
+    <title>Digital Communication</title> 
+    
+    <link rel="stylesheet" href="style.css">
+
+    <script src="https://cdn.jsdelivr.net/npm/vega@5.20.2"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/vega-lite@5.1.0"></script> 
+    <script src="https://cdn.jsdelivr.net/npm/vega-embed@6.17.0"></script> 
 </head>
-<body>
 
-    <div class="pure-g" style="padding: 20px;">
-        <div class="pure-u-1">
-            <h1>The Inescapable Screen</h1>
-            <p>How digital communication reshaped our personal and professional worlds.</p>
-            <hr>
+<body> 
+
+    <div class="page-container">
+        <h1>The Inescapable Screen</h1> 
+        <p>From a global wave of adaption to Australian daily life:
+            How digital communication reshaped our personal and professional worlds</p>
+
+        <h2>The Global Wave of Digital Adoption</h2>
+        <div class="chart-card" id="chart1"></div>
+
+        <div class="layout-left-stack">
+            <!-- Left Column Stack -->
+            <div class="vertical-stack">
+                <div class="chart-card" id="map1990"></div>
+                <div class="chart-card" id="map2005"></div>
+                <div class="chart-card" id="map2012"></div>
+                <!-- <div class="chart-card" id="map2026"></div> -->
+            </div>
+            
+            <!-- Right Column Main Chart -->
+            <div>
+                <div class="chart-card-large" id="map_interactive"></div>
+            </div>
+        </div>
+
+        <div class="chart-card" id="chart1_2"></div>
+
+
+        
+        <h2>Zooming in on Australia</h2>
+        <div class="layout-right-stack">
+            <div>
+                <p>As connectivity matured, Australian users shifted rapidly from desktop computers to mobile-first ecosystems.</p>
+                <div class="chart-card" id="chart2_1"></div>
+                <div class="chart-card" id="chart2_2"></div>
+            </div>
         </div>
     </div>
 
-</body>
+    <script>
+        vegaEmbed("#chart1", "js/chart1_continents.vg.json").catch(console.error);
+        vegaEmbed("#map1990", "js/dorling1990.vg.json").catch(console.error);
+        vegaEmbed("#map2005", "js/dorling2005.vg.json").catch(console.error);
+        vegaEmbed("#map2012", "js/dorling2012.vg.json").catch(console.error);
+        vegaEmbed("#map2026", "js/dorling2026.vg.json").catch(console.error);
+        vegaEmbed("#map_interactive", "js/map_interactive.vg.json").catch(console.error);
+        vegaEmbed("#chart1_2", "js/chart1_heat.vg.json").catch(console.error);
+        
+        vegaEmbed("#chart2_1", "js/chart2_divide.vg.json").catch(console.error);
+        vegaEmbed("#chart2_2", "js/chart2_rank.vg.json").catch(console.error);
+    </script>
+
+</body> 
 </html>
