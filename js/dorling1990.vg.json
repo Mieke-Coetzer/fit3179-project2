@@ -1,0 +1,118 @@
+{
+  "$schema": "https://vega.github.io/schema/vega/v5.json",
+  "title": "Global Internet Usage in 1990",
+  "width": 300,
+  "height": 180,
+  "autosize": {
+    "type": "fit"
+  },
+  
+  "signals": [
+    {"name": "cx", "update": "width/ 2"},
+    {"name": "cy", "update": "height/ 2"}
+  ],
+
+  "data": [
+    {
+      "name": "world",
+      "url": "https://raw.githubusercontent.com/FIT3179/Vega-Lite/main/3_choropleth_map/js/ne_110m_admin_0_countries.topojson",
+      "format": {"type": "topojson", "feature": "ne_110m_admin_0_countries"}
+    },
+    {
+      "name": "internet",
+      "url": "js/data/internet_users_clean.csv",
+      "format": {"type": "csv"}
+    },
+    {
+      "name": "countries",
+      "source": "world",
+      "transform": [
+        {
+          "type": "lookup",
+          "from": "internet",
+          "key": "Country Code",
+          "fields": ["properties.ISO_A3"],
+          "values": ["Country Name", "1990"]
+        },
+        {
+          "type": "filter",
+          "expr": "datum['1990'] !== null && !isNaN(datum['1990'])"
+        },
+        {
+          "type": "formula",
+          "as": "xy",
+          "expr": "geoCentroid('mercator', datum)"
+        },
+        {
+          "type": "formula",
+          "as": "x_init",
+          "expr": "datum.xy[0]"
+        },
+        {
+          "type": "formula",
+          "as": "y_init",
+          "expr": "datum.xy[1]"
+        },
+        {
+          "type": "force",
+          "iterations": 200,
+          "static": true,
+          "forces": [
+            {"force": "collide", "radius": {"expr": "sqrt(scale('size', datum['2005']) / 3.14159)"}},
+            {"force": "x", "x": "x_init", "strength": 0.1},
+            {"force": "y", "y": "y_init", "strength": 0.2},
+            {"force": "nbody", "strength": -5}
+          ]
+        }
+      ]
+    }
+  ],
+
+  "projections": [
+    {
+      "name": "mercator",
+      "type": "mercator",
+      "scale": 15,
+      "translate": [{"signal": "cx"}, {"signal": "cy"}],
+      "center": [0, 20]
+    }
+  ],
+
+  "scales": [
+    {
+      "name": "size",
+      "type": "sqrt",
+      "domain": [0, 100],
+      "range": [0, 400]
+    },
+    {
+      "name": "color",
+      "type": "sequential",
+      "domain": [0, 100],
+      "range": {"scheme": "purplebluegreen"}
+    }
+  ],
+
+  "marks": [
+    {
+      "type": "symbol",
+      "from": {"data": "countries"},
+      "encode": {
+        "enter": {
+          "shape": {"value": "circle"},
+          "fill": {"scale": "color", "field": "1990"},
+          "stroke": {"value": "white"},
+          "strokeWidth": {"value": 0.3}
+        },
+        "update": {
+          "x": {"field": "x"},
+          "y": {"field": "y"},
+          "size": {"scale": "size", "field": "1990"},
+          "tooltip": {
+            "signal": "{'Country': datum.properties.NAME, 'Internet Adoption (%)': format(datum['1990'], '.2f')}"
+          }
+        }
+      }
+    }
+  ]
+}
