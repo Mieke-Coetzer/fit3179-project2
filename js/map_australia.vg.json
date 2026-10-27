@@ -1,54 +1,73 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
-  "width": 700,
-  "height": 550,
-  "title": {
-    "text": "Australia: State-Level Metro vs. Regional Classification",
-    "fontSize": 16
-  },
+  "width": 1200,
+  "height": 750,
+  "title": "Australia Populated Places with State Boundaries",
   "projection": {
     "type": "mercator",
-    "center": [133, -27],
-    "scale": 750
+    "center": [133.0, -27.0],
+    "scale": 1000
   },
-  "data": {
-    "url": "ne_10m_admin_1_states_provinces.json",
-    "format": {
-      "type": "topojson",
-      "feature": "ne_10m_admin_1_states_provinces"
-    }
-  },
-  "transform": [
+  "layer": [
     {
-      "lookup": "properties.name",
-      "from": {
-        "data": {
-          "url": "data/state_classification.csv"
+      "data": {
+        "url": "js/ne_10m_admin_1_states_provinces.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_10m_admin_1_states_provinces"
+        }
+      },
+      "mark": {
+        "type": "geoshape",
+        "fill": "#f8fafc",
+        "stroke": "#cbd5e1",
+        "strokeWidth": 1
+      },
+      "transform": [
+        {
+          "filter": "datum.properties.admin == 'Australia'"
+        }
+      ]
+    },
+    {
+      "data": {
+        "url": "js/ne_10m_populated_places.json",
+        "format": {
+          "type": "topojson",
+          "feature": "ne_10m_populated_places"
+        }
+      },
+      "mark": {
+        "type": "circle",
+        "opacity": 0.7
+      },
+      "encoding": {
+        "longitude": {
+          "field": "properties.LONGITUDE",
+          "type": "quantitative"
         },
-        "key": "State_Name",
-        "fields": ["Primary_Classification", "Adoption_Rate"]
+        "latitude": {
+          "field": "properties.LATITUDE",
+          "type": "quantitative"
+        },
+        "size": {
+          "field": "properties.POP_MAX",
+          "type": "quantitative",
+          "title": "Population",
+          "scale": {"domain": [0, 5000000], "range": [20, 450]}
+        },
+        "color": {
+          "field": "properties.ADM1NAME",
+          "type": "nominal",
+          "title": "State/ Territory",
+          "scale": {"scheme": "dark2"}
+        },
+        "tooltip": [
+          {"field": "properties.NAME", "type": "nominal", "title": "Place"},
+          {"field": "properties.ADM1NAME", "type": "nominal", "title": "State/Territory"},
+          {"field": "properties.POP_MAX", "type": "quantitative", "title": "Population"}
+        ]
       }
     }
-  ],
-  "mark": {
-    "type": "geoshape",
-    "stroke": "white",
-    "strokeWidth": 1
-  },
-  "encoding": {
-    "color": {
-      "field": "Primary_Classification",
-      "type": "nominal",
-      "title": "Classification",
-      "scale": {
-        "domain": ["Metro-Dominant", "Regional-Dominant"],
-        "range": ["#1f77b4", "#2ca02c"]
-      }
-    },
-    "tooltip": [
-      {"field": "properties.name", "type": "nominal", "title": "State / Territory"},
-      {"field": "Primary_Classification", "type": "nominal", "title": "Dominant Zone"},
-      {"field": "Adoption_Rate", "type": "quantitative", "title": "Avg. Adoption Rate (%)"}
-    ]
-  }
+  ]
 }

@@ -1,0 +1,53 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "width": 650,
+  "height": 450,
+  "title": {
+    "text": "Generational Polarization Matrix",
+    "subtitle": "Daily adoption rate (%) across age cohorts for major platforms"
+  },
+  "data": {
+    "url": "js/data/age_groups_clean.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.Frequency == 'At least once a day'"
+    },
+    {
+      "filter": "datum.Age_Group != 'NET'"
+    },
+    {
+      "filter": "datum.App == 'Snapchat' || datum.App == 'TikTok' || datum.App == 'Instagram' || datum.App == 'Discord' || datum.App == 'Reddit' || datum.App == 'YouTube' || datum.App == 'WhatsApp' || datum.App == 'Facebook Messenger' || datum.App == 'X' || datum.App == 'Facebook'"
+    }
+  ],
+  "mark": {
+    "type": "rect",
+    "stroke": "#ffffff",
+    "strokeWidth": 1.5
+  },
+  "encoding": {
+    "y": {
+      "field": "App",
+      "type": "nominal",
+      "title": "Platform",
+      "sort": ["Snapchat", "TikTok", "Instagram", "Discord", "Reddit", "YouTube", "WhatsApp", "Facebook Messenger", "X", "Facebook"]
+    },
+    "x": {
+      "field": "Age_Group",
+      "type": "nominal",
+      "title": "Age Cohort",
+      "sort": ["18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75+"]
+    },
+    "color": {
+      "field": "Percentage",
+      "type": "quantitative",
+      "title": "Daily Usage (%)",
+      "scale": {"scheme": "purples"}
+    },
+    "tooltip": [
+      {"field": "App", "type": "nominal", "title": "Platform"},
+      {"field": "Age_Group", "type": "nominal", "title": "Age Cohort"},
+      {"field": "Percentage", "type": "quantitative", "title": "Daily Usage (%)", "format": ".1f"}
+    ]
+  }
+}

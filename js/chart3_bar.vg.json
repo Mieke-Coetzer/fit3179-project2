@@ -1,6 +1,8 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
   "title": "Engagement Frequency Breakdown Across Age Groups",
+  "width": "container",
+  "height": 250,
   "data": {
     "url": "js/data/age_groups_clean.csv"
   },
@@ -61,7 +63,15 @@
       "title": "Usage Frequency",
       "sort": {"field": "FreqRank", "order": "ascending"},
       "scale": {
-        "scheme": "purplebluegreen"
+        "range": [
+          "#f1f5f9",
+          "#e2e8f0",
+          "#cbd5e1",
+          "#94a3b8",
+          "#64748b",
+          "#475569",
+          "#334155"
+        ]
       }
     },
     "order": {

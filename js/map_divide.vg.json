@@ -63,7 +63,12 @@
           "title": "Area Type",
           "scale": {
             "domain": ["Metro", "Regional"],
-            "range": ["#154E88", "#EDB863"]
+            "range": ["#1f4e78", "#e2b13c"]
+          },
+          "legend": {
+            "orient": "bottom",
+            "direction": "horizontal",
+            "title": "Area Classification"
           }
         },
         "tooltip": [

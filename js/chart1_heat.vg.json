@@ -65,7 +65,8 @@
       "type": "quantitative",
       "title": "Growth (%)",
       "scale": {
-        "scheme": "redblue",
+        "scheme": "blueorange",
+        "reverse":true,
         "domain": [-30, 30]
       }
     },

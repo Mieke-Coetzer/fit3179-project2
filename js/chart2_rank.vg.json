@@ -61,7 +61,10 @@
       "field": "Device",
       "type": "nominal",
       "title": "Device Type",
-      "scale": {"scheme": "category20"}
+      "scale": {
+        "domain": ["Mobile phone", "Laptop computer", "Smart TV", "Desktop computer", "Tablet"],
+        "range": ["#b0c4de", "#e2b13c", "#c65d3b", "#A2D1C6", "#1f4e78"]
+        }
     },
     "opacity": {
       "condition": {"param": "device_highlight", "value": 1.0},

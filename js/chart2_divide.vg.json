@@ -76,7 +76,7 @@
           "title": "Location Type",
           "scale": {
             "domain": ["Metro_Adoption", "Regional_Adoption"],
-            "range": ["#154E88", "#EDB863"]
+            "range":["#1f4e78", "#e2b13c"]
           }
         },
         "tooltip": [
