@@ -3,7 +3,7 @@
 
 <head> 
     <meta charset="UTF-8"> 
-    <title>Digital Communication</title> 
+    <title>The Inescapable Screen</title> 
     
     <link rel="stylesheet" href="style.css">
 
@@ -15,53 +15,277 @@
 <body> 
 
     <div class="page-container">
-        <h1>The Inescapable Screen</h1> 
-        <p>From a global wave of adaption to Australian daily life:
-            How digital communication reshaped our personal and professional worlds</p>
-
-        <h2>The Global Wave of Digital Adoption</h2>
-        <div class="chart-card" id="chart1"></div>
-
-        <div class="layout-left-stack">
-            <!-- Left Column Stack -->
-            <div class="vertical-stack">
-                <div class="chart-card" id="map1990"></div>
-                <div class="chart-card" id="map2005"></div>
-                <div class="chart-card" id="map2012"></div>
-                <div class="chart-card" id="map2026"></div>
+        
+        <!-- ================= PAGE HEADER & METADATA ================= -->
+        <header style="margin-bottom: 30px;">
+            <div style="font-size: 0.85rem; color: #666; font-weight: 600; text-transform: uppercase; letter-spacing: 0.05em; margin-bottom: 8px;">
+                FIT3179 Data Visualization Project 2 &bull; Author: Mieke Coetzer, 33949107 &bull; Date: October 2026 &bull; Domain: Digital Communication
             </div>
             
-            <!-- Right Column Main Chart -->
-            <div>
-                <div class="chart-card-large" id="map_interactive"></div>
+            <div style="display: flex; align-items: center; justify-content: space-between; gap: 20px;">
+                <div>
+                    <h1 style="margin-bottom: 5px;">The Inescapable Screen</h1> 
+                    <h3 style="color: #2c3e50; font-weight: 500; margin-top: 0; margin-bottom: 15px;">
+                        From a global wave of adaptation to Australian daily life: How digital communication reshaped our personal and professional worlds.
+                    </h3>
+                </div>
             </div>
-        </div>
 
-        <div class="chart-card" id="chart1_2"></div>
-
-
-        
-        <h2>Zooming in on Australia</h2>
-        <div class="layout-right-stack">
-            <div>
-                <p>As connectivity matured, Australian users shifted rapidly from desktop computers to mobile-first ecosystems.</p>
-                <div class="chart-card" id="chart2_1"></div>
-                <div class="chart-card" id="chart2_2"></div>
+            <!-- Hero Introduction Card with Graphic -->
+            <div class="chart-card" style="border-left: 5px solid #1f4e78; background-color: #f8fafc; padding: 20px; display: flex; gap: 20px; align-items: center;">
+                <div style="flex: 2;">
+                    <h3 style="margin-top: 0;">Overview: Navigating Australia’s Connected Landscape</h3>
+                    <p>
+                        Over the past three decades, digital communication transitioned from an occasional household privilege to an always-on utility. 
+                        What began as specialized computer connections in the early 1990s quickly expanded into a global wave of ubiquitous screen access.
+                    </p>
+                    <p style="margin-bottom: 0;">
+                        This project investigates how Australia adapted to this global shift. By tracking our transition from desktop computers to 4
+                        mobile-first habits, examining distinct generational preferences, and evaluating the split between workplace productivity and 
+                        personal lifestyle apps, this dashboard maps how screens became an inescapable foundation of modern Australian life.
+                    </p>
+                </div>
+                <div style="flex: 1; text-align: center;">
+                    <img src="image0.png" alt="Desktop Communication Hub" style="max-width: 100%; height: auto; border-radius: 8px;">
+                </div>
             </div>
-        </div>
+        </header>
+
+        <!-- ================= SECTION 1: GLOBAL WAVE OF DIGITAL ADOPTION ================= -->
+        <section>
+            <h2>The Global Wave of Digital Adoption</h2>
+
+            <!-- Layout 1: Big Area Chart on LEFT (2fr), Commentary on RIGHT (1fr) -->
+            <div class="layout-right-stack" style="margin-bottom: 25px;">
+                <div class="chart-card-large" id="chart1"></div>
+                <div class="chart-card" style="border-left: 4px solid #d49638;">
+                    <h3>Global Growth Trajectory</h3>
+                    <p>Over the past three decades, global internet adoption shifted from specialized academic terminals to universal infrastructure [cite: 1].
+                       In 1990, less than 1% of the global population was connected[cite: 1]. By 2005, the expansion of commercial broadband propelled adoption 
+                       past 60% across high-income nations, eventually reaching a saturation point exceeding 96% in Australia by 2023[cite: 1, 2]. <br><br>
+                       Beyond this macroeconomic trend, this digital expansion unfolded unevenly across the globe—as illustrated by the geographical 
+                       cartogram sequence below, which tracks how connectivity concentrated and spread across continents over time[cite: 1].</p>
+
+                    <div style="flex-shrink: 0; width: 90px; text-align: right;">
+                    <img src="image2.png" alt="Global Icon" style="width: 75px; height: auto; border-radius: 8px;">
+                </div>
+                </div>
+                
+            </div>
+
+            <!-- Layout 2: 3 Stacked Small Dorling Maps on LEFT, Big Interactive Map on RIGHT -->
+            <div class="layout-left-stack" style="align-items: stretch; margin-bottom: 15px;">
+                <div class="vertical-stack">
+                    <div class="chart-card" id="map1990"></div>
+                    <div class="chart-card" id="map2005"></div>
+                    <div class="chart-card" id="map2012"></div>
+                </div>
+                <div>
+                    <div class="chart-card-large" id="map_interactive" style="height: 100%;"></div>
+                </div>
+            </div>
+            <p style="margin-bottom: 30px;"><em>The sequence of Dorling cartograms above illustrates the geographical density shift over time, contrasted with the interactive global explorer on the right.</em></p>
+
+            <!-- Heatmap Section: Big Left (2fr), Text Right (1fr) -->
+            <div class="layout-right-stack">
+                <div class="chart-card-large" id="chart1_2"></div>
+                <div class="chart-card" style="border-left: 4px solid #88b6e0;">
+                    <h3>Adoption Intensity Heatmap</h3>
+                    <p>
+                        By mapping adoption percentages across geographic regions over consecutive years, the heatmap exposes the historical digital divide. 
+                        While high-income regions like North America and Europe reached saturation (>75%) prior to 2015, lower-income regions such as Sub-Saharan Africa 
+                        and South Asia displayed a delayed ramp-up, highlighting longstanding structural infrastructure disparities[cite: 1, 3].
+                    </p>
+                    <p style="margin-bottom: 0;">
+                        The color intensity shift highlights a pivotal inflection point between 2010 and 2015, where mobile broadband expansion accelerated 
+                        connectivity across East Asia, Latin America, and South Asia—rapidly closing penetration gaps that fixed-line infrastructure failed to address
+                        [cite: 1, 3].
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 20px 0;">
+
+       <!-- ================= SECTION 2: ZOOMING IN ON AUSTRALIA ================= -->
+        <section>
+            <h2>Zooming in on Australia</h2>
+            <p style="margin-bottom: 20px;">Local Realities: Urban Density, Regional Connectivity, and Device Evolution<br>
+                As connectivity matured, Australian users shifted rapidly from desktop computers to mobile-first ecosystems, creating distinct divides between 
+                metropolitan centers and regional areas[cite: 1, 2].</p>
+            
+            <!-- Main Australia Map (Left 2fr) & Commentary (Right 1fr) -->
+            <div class="layout-right-stack" style="margin-bottom: 25px;">
+                <div class="chart-card-large" id="map2_1"></div>
+                <div class="chart-card" style="border-left: 4px solid #f1c531;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <h3>Metropolitan vs. Regional Distribution</h3>
+                        <img src="image1.png" alt="Message Icon" style="width: 45px; height: auto;">
+                    </div>
+                    <p>Geographic mapping reveals the spread of connected communities across Australia. Regional hubs show high reliance on mobile connectivity, while metropolitan centers concentrate intense digital engagement[cite: 1, 2].</p>
+                </div>
+            </div>
+
+            <!-- Divided Bar Chart & Text -->
+            <div class="layout-right-stack" style="margin-bottom: 25px;">
+                <div class="chart-card-large" id="chart2_divide"></div>
+                <div class="chart-card" style="border-left: 4px solid #f1c531;">
+                    <h3>App Adoption Breakdown</h3>
+                    <p>The divided bar chart directly contrasts regional and metropolitan application adoption rates, demonstrating how urban density dictates platform preferences[cite: 1, 2].</p>
+                </div>
+            </div>
+
+            <!-- Device Rank Shift Chart -->
+            <div class="layout-left-stack">
+                <div class="chart-card" style="border-left: 4px solid #aaddd3;">
+                    <h3>The Shift in Primary Used Devices</h3>
+                    <p>Australian device reliance underwent a fundamental transformation over the past decade. Fixed desktop computers and traditional landlines dropped rapidly in preference, while smartphones established absolute dominance as the primary instrument for daily personal and professional tasks[cite: 1, 2].</p>
+                </div>
+                <div class="chart-card-large" id="chart2_2"></div>
+            </div>
+        </section>
+
+        <hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 20px 0;">
+
+        <!-- ================= SECTION 3: GENERATIONAL PATTERNS ================= -->
+        <section>
+            <h2>Generational Patterns and Communication Preferences</h2>
+            <p style="margin-bottom: 20px;">Different age cohorts interact with digital spaces in vastly different ways, balancing portfolio breadth against daily platform penetration[cite: 1, 2].</p>
+            
+            <!-- 1. Small Scatter on Left (1fr), Paragraph on Right (2fr) -->
+            <div class="layout-left-stack" style="margin-bottom: 25px;">
+                <div class="chart-card" id="chart3_circles"></div>
+                <div class="chart-card" style="border-left: 4px solid #851a13;">
+                    <div style="display: flex; justify-content: space-between; align-items: flex-start;">
+                        <h3>Portfolio Breadth Across Generations</h3>
+                        <img src="image3.png" alt="User Profile Icon" style="width: 45px; height: auto;">
+                    </div>
+                    <p>The bubble scatter plot illustrates how portfolio breadth varies by age group. Younger cohorts manage wider spreads of digital applications, whereas older demographics concentrate their screen time on specific, high-utility platforms[cite: 1, 2].</p>
+                </div>
+            </div>
+
+            <!-- 2. Full Width Interactive Engagement Frequency Chart -->
+            <div class="chart-card-large" id="chart3_3" style="margin-bottom: 25px;"></div>
+
+            <!-- 3. Interactive 3-App Comparison Chart Big on Left (2fr), Paragraph on Right (1fr) -->
+            <div class="layout-right-stack" style="margin-bottom: 25px;">
+                <div class="chart-card-large" id="chart3_2"></div>
+                <div class="chart-card" style="border-left: 4px solid #851a13;">
+                    <h3>Comparing Daily App Adoption</h3>
+                    <p>
+                        Use the interactive selectors above to compare how different age groups engage with specific platforms[cite: 1, 2]. This view reveals distinct generational divides: younger cohorts dominate short-form media and visual platforms—with over 56% of 18–24 year olds using TikTok multiple times daily—whereas older demographics concentrate their screen time heavily on established messaging and utility tools like Facebook and email[cite: 1, 4].
+                    </p>
+                    <p style="margin-bottom: 0;">
+                        <strong>Key Finding:</strong> Snapchat and TikTok show a steep drop beyond age 35 (falling below 25% penetration), while direct messaging platforms maintain consistent multi-visit daily routines across every single age bracket[cite: 1, 4].
+                    </p>
+                </div>
+            </div>
+            
+            <!-- 4. Side-by-Side Comparison for the Last Two Connected Charts -->
+            <div class="layout-left-stack">
+                <div class="chart-card" style="border-left: 4px solid #383c49;">
+                    <h3>Platform Preference Breakdown</h3>
+                    <p>
+                        This detailed breakdown contrasts communication preferences across cohorts[cite: 1, 2]. While direct messaging remains a universal constant across all generations (exceeding 85% adoption), short-form video and live streaming platforms exhibit steep generational drops beyond age 50[cite: 1, 4].
+                    </p>
+                    <p style="margin-bottom: 0;">
+                        <strong>Key Finding:</strong> Older Australians (65+) prioritize high-utility, structured communication—concentrating 72% of their screen time on email and direct phone calls—whereas Gen Z users maintain an average of 5 to 7 active messaging apps simultaneously to separate social circles[cite: 1, 4].
+                    </p>
+                </div>
+                <div class="chart-card-large" id="chart3_1"></div>
+            </div>
+        </section>
+
+        <hr style="border: 0; border-top: 1px solid #e0e0e0; margin: 20px 0;">
+
+        <!-- ================= SECTION 4: DIGITAL COMMUNICATION ECOSYSTEM & IMPACT ================= -->
+        <section>
+            <h2>Digital Communication Ecosystem & Impact Dimensions</h2>
+            <p style="margin-bottom: 20px;">Analyzing the balance between personal lifestyle engagement, workplace productivity, and multi-domain impact dimensions in 2025[cite: 1, 2].</p>
+
+            <!-- 1. Circles Chart on Left (2fr), Paragraph on Right (1fr) -->
+            <div class="layout-right-stack" style="margin-bottom: 25px;">
+                <div class="chart-card-large" id="chart4_1"></div>
+                <div class="chart-card" style="border-left: 4px solid #c65d3b;">
+                    <h3>Activity Density & Purpose</h3>
+                    <p>Australians maintain a vibrant digital ecosystem dominated by social connectivity, instant messaging, and lifestyle streaming[cite: 1, 2]. While personal engagement forms the broad foundation of daily usage, formal digital tools have rapidly established themselves across professional and educational boundaries[cite: 1, 2].</p>
+                </div>
+            </div>
+
+            <!-- 2. Paragraph on Left (1fr), Big Radar Chart on Right (2fr) -->
+            <div class="layout-left-stack" style="margin-bottom: 25px;">
+                <div class="chart-card" style="border-left: 4px solid #e2b13c;">
+                    <h3>Multidimensional Impact Dimensions</h3>
+                    <p>Comparing professional and personal communication domains reveals a clear divergence: workplace productivity and knowledge access dominate professional screen time, whereas personal connections and entertainment drive lifestyle adoption[cite: 1, 2]. Notably, privacy and security concerns remain lower in personal routines (45.5%) compared to institutional settings (75.0%)[cite: 1, 2].</p>
+                </div>
+                <div class="chart-card-large" style="padding: 0; display: flex; justify-content: center; align-items: center; overflow: hidden; min-height: 480px;">
+                    <iframe src="js/chart4_radar.html" width="100%" height="600" style="border:none; overflow: hidden;"></iframe>
+                </div>
+            </div>
+
+            <!-- 4. Final Paragraph & Conclusion Block -->
+            <div class="chart-card" style="border-left: 5px solid #1f4e78; background-color: #f8fafc;">
+                <h3>Conclusion: The Inescapable, Dual-Domain Screen</h3>
+                <p>From global adoption waves to hyper-connected Australian households, digital communication has evolved from a luxury utility into an inescapable infrastructure. As demonstrated across our adoption benchmarks and multi-domain impact dimensions, Australians seamlessly bridge personal lifestyle engagement with high-demand professional productivity—navigating unprecedented connectivity while balancing critical privacy and security challenges[cite: 1, 2].</p>
+            </div>
+        </section>
+
+        <!-- ================= FOOTER & METADATA ================= -->
+        <footer style="margin-top: 40px; padding-top: 20px; border-top: 1px solid #e0e0e0; font-size: 0.85rem; color: #555;">
+            <div class="chart-card" style="background-color: #fafafa;">
+                <h3>Data Sources & References</h3>
+                <ul style="padding-left: 20px; line-height: 1.8;">
+                    <li>
+                        <strong>Australian Communications and Media Authority (ACMA):</strong> 
+                        <a href="https://www.acma.gov.au/publications/2023-12/report/communications-and-media-in-australia-how-we-communicate-data-tables" target="_blank">How We Communicate Data Tables & Reports</a>
+                    </li>
+                    <li>
+                        <strong>Australian Communications and Media Authority (ACMA):</strong> 
+                        <a href="https://www.acma.gov.au/publications/2023-12/report/communications-and-media-in-australia-how-we-communicate-data-tables" target="_blank">How We Use the Internet Data Tables</a>
+                    </li>
+                    <li>
+                        <strong>Australian Bureau of Statistics (ABS):</strong> 
+                        <a href="https://www.abs.gov.au/statistics/industry/technology-and-innovation/household-use-information-technology-australia" target="_blank">Household Use of Information Technology, Australia</a>
+                    </li>
+                    <li>
+                        <strong>World Bank Open Data:</strong> 
+                        <a href="https://data.worldbank.org/indicator/IT.NET.USER.ZS" target="_blank">Individuals using the Internet (% of population)</a>
+                    </li>
+                </ul>
+
+                <h3 style="margin-top: 15px;">Generative AI Acknowledgement</h3>
+                <p style="margin-bottom: 0;">
+                    Generative AI tools (including Copilot and ChatGPT) were used during the development of this project to assist with HTML/CSS layout structuring, CSS grid alignment, and grammatical polishing of narrative content. Additionally, generative AI assisted in creating the standalone HTML/Chart.js code for the radar chart because Vega-Lite does not natively support multi-axis radar idioms. All data cleaning, statistical analysis, dataset interpretation, and final visualization design logic were independently executed and verified by the author.[cite: 1, 2, 3, 4]
+                </p>
+            </div>
+        </footer>
+
     </div>
 
+    <!-- ================= EMBED SCRIPTS ================= -->
     <script>
+        // Section 1: Global Wave
         vegaEmbed("#chart1", "js/chart1_continents.vg.json").catch(console.error);
         vegaEmbed("#map1990", "js/dorling1990.vg.json").catch(console.error);
         vegaEmbed("#map2005", "js/dorling2005.vg.json").catch(console.error);
         vegaEmbed("#map2012", "js/dorling2012.vg.json").catch(console.error);
-        vegaEmbed("#map2026", "js/dorling2026.vg.json").catch(console.error);
         vegaEmbed("#map_interactive", "js/map_interactive.vg.json").catch(console.error);
         vegaEmbed("#chart1_2", "js/chart1_heat.vg.json").catch(console.error);
         
-        vegaEmbed("#chart2_1", "js/chart2_divide.vg.json").catch(console.error);
+        // Section 2: Australia Zoom
+        vegaEmbed("#chart2_divide", "js/chart2_divide.vg.json").catch(console.error);
         vegaEmbed("#chart2_2", "js/chart2_rank.vg.json").catch(console.error);
+        vegaEmbed("#map2_1", "js/map_divide.vg.json").catch(console.error);
+
+        // Section 3: Generational Patterns
+        vegaEmbed("#chart3_1", "js/chart3_bar.vg.json").catch(console.error);
+        vegaEmbed("#chart3_2", "js/chart3_histogram.vg.json").catch(console.error);
+        vegaEmbed("#chart3_circles", "js/chart3_circles.vg.json").catch(console.error);
+        vegaEmbed("#chart3_3", "js/chart3_multi.vg.json").catch(console.error);
+
+        // Section 4: Societal Impact & Ecosystem
+        vegaEmbed("#chart4_1", "js/chart4_circles.vg.json").catch(console.error);
+        vegaEmbed("#chart4_3", "js/chart4_3.vg.json").catch(console.error);
     </script>
 
 </body> 
