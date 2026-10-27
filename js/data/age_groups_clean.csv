@@ -1,0 +1,2015 @@
+App,Age_Group,Frequency,Percentage
+Facebook,18-24,Multiple times a day,32.57
+Facebook,25-34,Multiple times a day,43.91
+Facebook,35-44,Multiple times a day,51.24
+Facebook,45-54,Multiple times a day,46.51
+Facebook,55-64,Multiple times a day,40.92
+Facebook,65-74,Multiple times a day,37.43
+Facebook,75+,Multiple times a day,26.89
+Facebook,NET,Multiple times a day,42.22
+Facebook,18-24,Daily,25.9
+Facebook,25-34,Daily,28.51
+Facebook,35-44,Daily,27.37
+Facebook,45-54,Daily,27.51
+Facebook,55-64,Daily,30.49
+Facebook,65-74,Daily,32.43
+Facebook,75+,Daily,35.0
+Facebook,NET,Daily,29.01
+Facebook,18-24,Several times a week,21.01
+Facebook,25-34,Several times a week,15.69
+Facebook,35-44,Several times a week,9.99
+Facebook,45-54,Several times a week,12.17
+Facebook,55-64,Several times a week,12.99
+Facebook,65-74,Several times a week,14.64
+Facebook,75+,Several times a week,19.13
+Facebook,NET,Several times a week,14.3
+Facebook,18-24,Weekly,8.97
+Facebook,25-34,Weekly,5.5
+Facebook,35-44,Weekly,5.73
+Facebook,45-54,Weekly,5.33
+Facebook,55-64,Weekly,6.41
+Facebook,65-74,Weekly,5.56
+Facebook,75+,Weekly,9.96
+Facebook,NET,Weekly,6.3
+Facebook,18-24,Fortnightly,4.96
+Facebook,25-34,Fortnightly,1.9
+Facebook,35-44,Fortnightly,1.81
+Facebook,45-54,Fortnightly,2.29
+Facebook,55-64,Fortnightly,3.11
+Facebook,65-74,Fortnightly,2.92
+Facebook,75+,Fortnightly,2.02
+Facebook,NET,Fortnightly,2.6
+Facebook,18-24,Monthly,3.27
+Facebook,25-34,Monthly,2.07
+Facebook,35-44,Monthly,1.32
+Facebook,45-54,Monthly,2.84
+Facebook,55-64,Monthly,2.19
+Facebook,65-74,Monthly,2.74
+Facebook,75+,Monthly,4.14
+Facebook,NET,Monthly,2.41
+Facebook,18-24,Less often than monthly,3.31
+Facebook,25-34,Less often than monthly,2.42
+Facebook,35-44,Less often than monthly,2.53
+Facebook,45-54,Less often than monthly,3.31
+Facebook,55-64,Less often than monthly,3.89
+Facebook,65-74,Less often than monthly,4.27
+Facebook,75+,Less often than monthly,2.85
+Facebook,NET,Less often than monthly,3.16
+Facebook,18-24,Refused + Don't know,0.0
+Facebook,25-34,Refused + Don't know,0.0
+Facebook,35-44,Refused + Don't know,0.0
+Facebook,45-54,Refused + Don't know,0.03
+Facebook,55-64,Refused + Don't know,0.0
+Facebook,65-74,Refused + Don't know,0.0
+Facebook,75+,Refused + Don't know,0.0
+Facebook,NET,Refused + Don't know,0.01
+Facebook,18-24,At least once a day,58.47
+Facebook,25-34,At least once a day,72.42
+Facebook,35-44,At least once a day,78.62
+Facebook,45-54,At least once a day,74.02
+Facebook,55-64,At least once a day,71.41
+Facebook,65-74,At least once a day,69.86
+Facebook,75+,At least once a day,61.9
+Facebook,NET,At least once a day,71.22
+Facebook,18-24,NET,100.0
+Facebook,25-34,NET,100.0
+Facebook,35-44,NET,100.0
+Facebook,45-54,NET,100.0
+Facebook,55-64,NET,100.0
+Facebook,65-74,NET,100.0
+Facebook,75+,NET,100.0
+Instagram,18-24,Multiple times a day,56.57
+Instagram,25-34,Multiple times a day,50.54
+Instagram,35-44,Multiple times a day,48.59
+Instagram,45-54,Multiple times a day,25.79
+Instagram,55-64,Multiple times a day,25.5
+Instagram,65-74,Multiple times a day,13.84
+Instagram,75+,Multiple times a day,6.97
+Instagram,NET,Multiple times a day,41.06
+Instagram,18-24,Daily,25.71
+Instagram,25-34,Daily,23.99
+Instagram,35-44,Daily,21.78
+Instagram,45-54,Daily,30.08
+Instagram,55-64,Daily,23.92
+Instagram,65-74,Daily,29.05
+Instagram,75+,Daily,28.64
+Instagram,NET,Daily,25.24
+Instagram,18-24,Several times a week,10.65
+Instagram,25-34,Several times a week,12.7
+Instagram,35-44,Several times a week,14.79
+Instagram,45-54,Several times a week,18.62
+Instagram,55-64,Several times a week,18.02
+Instagram,65-74,Several times a week,22.0
+Instagram,75+,Several times a week,21.31
+Instagram,NET,Several times a week,15.13
+Instagram,18-24,Weekly,4.07
+Instagram,25-34,Weekly,5.67
+Instagram,35-44,Weekly,6.29
+Instagram,45-54,Weekly,11.47
+Instagram,55-64,Weekly,13.74
+Instagram,65-74,Weekly,11.78
+Instagram,75+,Weekly,18.68
+Instagram,NET,Weekly,8.03
+Instagram,18-24,Fortnightly,1.35
+Instagram,25-34,Fortnightly,3.51
+Instagram,35-44,Fortnightly,2.47
+Instagram,45-54,Fortnightly,3.46
+Instagram,55-64,Fortnightly,5.91
+Instagram,65-74,Fortnightly,7.13
+Instagram,75+,Fortnightly,2.37
+Instagram,NET,Fortnightly,3.39
+Instagram,18-24,Monthly,0.54
+Instagram,25-34,Monthly,1.64
+Instagram,35-44,Monthly,2.4
+Instagram,45-54,Monthly,5.54
+Instagram,55-64,Monthly,4.51
+Instagram,65-74,Monthly,6.38
+Instagram,75+,Monthly,11.1
+Instagram,NET,Monthly,3.06
+Instagram,18-24,Less often than monthly,1.1
+Instagram,25-34,Less often than monthly,1.91
+Instagram,35-44,Less often than monthly,3.68
+Instagram,45-54,Less often than monthly,5.03
+Instagram,55-64,Less often than monthly,7.81
+Instagram,65-74,Less often than monthly,9.83
+Instagram,75+,Less often than monthly,10.94
+Instagram,NET,Less often than monthly,4.01
+Instagram,18-24,Refused + Don't know,0.0
+Instagram,25-34,Refused + Don't know,0.05
+Instagram,35-44,Refused + Don't know,0.0
+Instagram,45-54,Refused + Don't know,0.0
+Instagram,55-64,Refused + Don't know,0.61
+Instagram,65-74,Refused + Don't know,0.0
+Instagram,75+,Refused + Don't know,0.0
+Instagram,NET,Refused + Don't know,0.08
+Instagram,18-24,At least once a day,82.28
+Instagram,25-34,At least once a day,74.53
+Instagram,35-44,At least once a day,70.37
+Instagram,45-54,At least once a day,55.87
+Instagram,55-64,At least once a day,49.41
+Instagram,65-74,At least once a day,42.89
+Instagram,75+,At least once a day,35.61
+Instagram,NET,At least once a day,66.3
+Instagram,18-24,NET,100.0
+Instagram,25-34,NET,100.0
+Instagram,35-44,NET,100.0
+Instagram,45-54,NET,100.0
+Instagram,55-64,NET,100.0
+Instagram,65-74,NET,100.0
+Instagram,75+,NET,100.0
+TikTok,18-24,Multiple times a day,56.71
+TikTok,25-34,Multiple times a day,40.04
+TikTok,35-44,Multiple times a day,33.12
+TikTok,45-54,Multiple times a day,25.59
+TikTok,55-64,Multiple times a day,13.26
+TikTok,65-74,Multiple times a day,14.45
+TikTok,75+,Multiple times a day,9.21
+TikTok,NET,Multiple times a day,37.48
+TikTok,18-24,Daily,23.94
+TikTok,25-34,Daily,22.8
+TikTok,35-44,Daily,24.82
+TikTok,45-54,Daily,25.53
+TikTok,55-64,Daily,28.08
+TikTok,65-74,Daily,24.83
+TikTok,75+,Daily,23.12
+TikTok,NET,Daily,24.26
+TikTok,18-24,Several times a week,9.7
+TikTok,25-34,Several times a week,16.48
+TikTok,35-44,Several times a week,15.46
+TikTok,45-54,Several times a week,14.47
+TikTok,55-64,Several times a week,14.05
+TikTok,65-74,Several times a week,14.99
+TikTok,75+,Several times a week,35.62
+TikTok,NET,Several times a week,14.24
+TikTok,18-24,Weekly,3.43
+TikTok,25-34,Weekly,8.24
+TikTok,35-44,Weekly,8.75
+TikTok,45-54,Weekly,4.84
+TikTok,55-64,Weekly,11.5
+TikTok,65-74,Weekly,17.92
+TikTok,75+,Weekly,0.0
+TikTok,NET,Weekly,7.42
+TikTok,18-24,Fortnightly,2.95
+TikTok,25-34,Fortnightly,7.54
+TikTok,35-44,Fortnightly,7.18
+TikTok,45-54,Fortnightly,9.05
+TikTok,55-64,Fortnightly,4.1
+TikTok,65-74,Fortnightly,4.72
+TikTok,75+,Fortnightly,0.0
+TikTok,NET,Fortnightly,6.08
+TikTok,18-24,Monthly,2.02
+TikTok,25-34,Monthly,2.73
+TikTok,35-44,Monthly,4.55
+TikTok,45-54,Monthly,8.86
+TikTok,55-64,Monthly,12.87
+TikTok,65-74,Monthly,10.23
+TikTok,75+,Monthly,0.0
+TikTok,NET,Monthly,4.8
+TikTok,18-24,Less often than monthly,1.23
+TikTok,25-34,Less often than monthly,2.18
+TikTok,35-44,Less often than monthly,6.12
+TikTok,45-54,Less often than monthly,11.67
+TikTok,55-64,Less often than monthly,16.14
+TikTok,65-74,Less often than monthly,12.86
+TikTok,75+,Less often than monthly,32.05
+TikTok,NET,Less often than monthly,5.72
+TikTok,18-24,Refused + Don't know,0.0
+TikTok,25-34,Refused + Don't know,0.0
+TikTok,35-44,Refused + Don't know,0.0
+TikTok,45-54,Refused + Don't know,0.0
+TikTok,55-64,Refused + Don't know,0.0
+TikTok,65-74,Refused + Don't know,0.0
+TikTok,75+,Refused + Don't know,0.0
+TikTok,NET,Refused + Don't know,0.0
+TikTok,18-24,At least once a day,80.66
+TikTok,25-34,At least once a day,62.83
+TikTok,35-44,At least once a day,57.94
+TikTok,45-54,At least once a day,51.12
+TikTok,55-64,At least once a day,41.34
+TikTok,65-74,At least once a day,39.28
+TikTok,75+,At least once a day,32.33
+TikTok,NET,At least once a day,61.75
+TikTok,18-24,NET,100.0
+TikTok,25-34,NET,100.0
+TikTok,35-44,NET,100.0
+TikTok,45-54,NET,100.0
+TikTok,55-64,NET,100.0
+TikTok,65-74,NET,100.0
+TikTok,75+,NET,100.0
+Snapchat,18-24,Multiple times a day,45.06
+Snapchat,25-34,Multiple times a day,30.78
+Snapchat,35-44,Multiple times a day,32.06
+Snapchat,45-54,Multiple times a day,22.7
+Snapchat,55-64,Multiple times a day,15.67
+Snapchat,65-74,Multiple times a day,6.18
+Snapchat,75+,Multiple times a day,10.07
+Snapchat,NET,Multiple times a day,32.39
+Snapchat,18-24,Daily,30.64
+Snapchat,25-34,Daily,24.34
+Snapchat,35-44,Daily,19.5
+Snapchat,45-54,Daily,22.13
+Snapchat,55-64,Daily,20.22
+Snapchat,65-74,Daily,22.36
+Snapchat,75+,Daily,0.0
+Snapchat,NET,Daily,24.42
+Snapchat,18-24,Several times a week,14.76
+Snapchat,25-34,Several times a week,17.26
+Snapchat,35-44,Several times a week,21.43
+Snapchat,45-54,Several times a week,19.54
+Snapchat,55-64,Several times a week,31.62
+Snapchat,65-74,Several times a week,24.45
+Snapchat,75+,Several times a week,0.0
+Snapchat,NET,Several times a week,18.53
+Snapchat,18-24,Weekly,4.87
+Snapchat,25-34,Weekly,15.96
+Snapchat,35-44,Weekly,9.61
+Snapchat,45-54,Weekly,13.3
+Snapchat,55-64,Weekly,10.5
+Snapchat,65-74,Weekly,19.96
+Snapchat,75+,Weekly,0.0
+Snapchat,NET,Weekly,11.1
+Snapchat,18-24,Fortnightly,0.64
+Snapchat,25-34,Fortnightly,4.8
+Snapchat,35-44,Fortnightly,4.89
+Snapchat,45-54,Fortnightly,6.05
+Snapchat,55-64,Fortnightly,6.6
+Snapchat,65-74,Fortnightly,5.18
+Snapchat,75+,Fortnightly,0.0
+Snapchat,NET,Fortnightly,4.09
+Snapchat,18-24,Monthly,1.9
+Snapchat,25-34,Monthly,2.43
+Snapchat,35-44,Monthly,4.7
+Snapchat,45-54,Monthly,8.7
+Snapchat,55-64,Monthly,12.46
+Snapchat,65-74,Monthly,15.11
+Snapchat,75+,Monthly,45.98
+Snapchat,NET,Monthly,4.5
+Snapchat,18-24,Less often than monthly,2.14
+Snapchat,25-34,Less often than monthly,4.43
+Snapchat,35-44,Less often than monthly,7.82
+Snapchat,45-54,Less often than monthly,7.58
+Snapchat,55-64,Less often than monthly,2.93
+Snapchat,65-74,Less often than monthly,6.76
+Snapchat,75+,Less often than monthly,43.95
+Snapchat,NET,Less often than monthly,4.96
+Snapchat,18-24,Refused + Don't know,0.0
+Snapchat,25-34,Refused + Don't know,0.0
+Snapchat,35-44,Refused + Don't know,0.0
+Snapchat,45-54,Refused + Don't know,0.0
+Snapchat,55-64,Refused + Don't know,0.0
+Snapchat,65-74,Refused + Don't know,0.0
+Snapchat,75+,Refused + Don't know,0.0
+Snapchat,NET,Refused + Don't know,0.0
+Snapchat,18-24,At least once a day,75.7
+Snapchat,25-34,At least once a day,55.12
+Snapchat,35-44,At least once a day,51.56
+Snapchat,45-54,At least once a day,44.83
+Snapchat,55-64,At least once a day,35.89
+Snapchat,65-74,At least once a day,28.54
+Snapchat,75+,At least once a day,10.07
+Snapchat,NET,At least once a day,56.82
+Snapchat,18-24,NET,100.0
+Snapchat,25-34,NET,100.0
+Snapchat,35-44,NET,100.0
+Snapchat,45-54,NET,100.0
+Snapchat,55-64,NET,100.0
+Snapchat,65-74,NET,100.0
+Snapchat,75+,NET,100.0
+Facebook Messenger,18-24,Multiple times a day,32.4
+Facebook Messenger,25-34,Multiple times a day,46.1
+Facebook Messenger,35-44,Multiple times a day,41.24
+Facebook Messenger,45-54,Multiple times a day,30.21
+Facebook Messenger,55-64,Multiple times a day,26.18
+Facebook Messenger,65-74,Multiple times a day,17.94
+Facebook Messenger,75+,Multiple times a day,11.33
+Facebook Messenger,NET,Multiple times a day,33.02
+Facebook Messenger,18-24,Daily,26.84
+Facebook Messenger,25-34,Daily,25.09
+Facebook Messenger,35-44,Daily,22.54
+Facebook Messenger,45-54,Daily,24.46
+Facebook Messenger,55-64,Daily,20.76
+Facebook Messenger,65-74,Daily,22.6
+Facebook Messenger,75+,Daily,16.01
+Facebook Messenger,NET,Daily,23.24
+Facebook Messenger,18-24,Several times a week,20.87
+Facebook Messenger,25-34,Several times a week,18.37
+Facebook Messenger,35-44,Several times a week,18.12
+Facebook Messenger,45-54,Several times a week,22.44
+Facebook Messenger,55-64,Several times a week,24.54
+Facebook Messenger,65-74,Several times a week,26.43
+Facebook Messenger,75+,Several times a week,34.58
+Facebook Messenger,NET,Several times a week,21.93
+Facebook Messenger,18-24,Weekly,11.55
+Facebook Messenger,25-34,Weekly,5.79
+Facebook Messenger,35-44,Weekly,10.21
+Facebook Messenger,45-54,Weekly,10.69
+Facebook Messenger,55-64,Weekly,12.83
+Facebook Messenger,65-74,Weekly,15.56
+Facebook Messenger,75+,Weekly,15.34
+Facebook Messenger,NET,Weekly,10.8
+Facebook Messenger,18-24,Fortnightly,3.07
+Facebook Messenger,25-34,Fortnightly,2.09
+Facebook Messenger,35-44,Fortnightly,4.06
+Facebook Messenger,45-54,Fortnightly,4.09
+Facebook Messenger,55-64,Fortnightly,5.12
+Facebook Messenger,65-74,Fortnightly,5.26
+Facebook Messenger,75+,Fortnightly,4.77
+Facebook Messenger,NET,Fortnightly,3.87
+Facebook Messenger,18-24,Monthly,3.44
+Facebook Messenger,25-34,Monthly,0.82
+Facebook Messenger,35-44,Monthly,1.23
+Facebook Messenger,45-54,Monthly,4.54
+Facebook Messenger,55-64,Monthly,4.44
+Facebook Messenger,65-74,Monthly,5.2
+Facebook Messenger,75+,Monthly,5.26
+Facebook Messenger,NET,Monthly,3.07
+Facebook Messenger,18-24,Less often than monthly,1.83
+Facebook Messenger,25-34,Less often than monthly,1.68
+Facebook Messenger,35-44,Less often than monthly,2.61
+Facebook Messenger,45-54,Less often than monthly,3.56
+Facebook Messenger,55-64,Less often than monthly,6.13
+Facebook Messenger,65-74,Less often than monthly,7.02
+Facebook Messenger,75+,Less often than monthly,11.7
+Facebook Messenger,NET,Less often than monthly,4.0
+Facebook Messenger,18-24,Refused + Don't know,0.0
+Facebook Messenger,25-34,Refused + Don't know,0.06
+Facebook Messenger,35-44,Refused + Don't know,0.0
+Facebook Messenger,45-54,Refused + Don't know,0.0
+Facebook Messenger,55-64,Refused + Don't know,0.0
+Facebook Messenger,65-74,Refused + Don't know,0.0
+Facebook Messenger,75+,Refused + Don't know,1.01
+Facebook Messenger,NET,Refused + Don't know,0.07
+Facebook Messenger,18-24,At least once a day,59.24
+Facebook Messenger,25-34,At least once a day,71.19
+Facebook Messenger,35-44,At least once a day,63.77
+Facebook Messenger,45-54,At least once a day,54.67
+Facebook Messenger,55-64,At least once a day,46.94
+Facebook Messenger,65-74,At least once a day,40.54
+Facebook Messenger,75+,At least once a day,27.34
+Facebook Messenger,NET,At least once a day,56.26
+Facebook Messenger,18-24,NET,100.0
+Facebook Messenger,25-34,NET,100.0
+Facebook Messenger,35-44,NET,100.0
+Facebook Messenger,45-54,NET,100.0
+Facebook Messenger,55-64,NET,100.0
+Facebook Messenger,65-74,NET,100.0
+Facebook Messenger,75+,NET,100.0
+YouTube,18-24,Multiple times a day,37.35
+YouTube,25-34,Multiple times a day,32.84
+YouTube,35-44,Multiple times a day,31.89
+YouTube,45-54,Multiple times a day,26.02
+YouTube,55-64,Multiple times a day,18.47
+YouTube,65-74,Multiple times a day,16.23
+YouTube,75+,Multiple times a day,10.96
+YouTube,NET,Multiple times a day,26.76
+YouTube,18-24,Daily,26.5
+YouTube,25-34,Daily,28.91
+YouTube,35-44,Daily,25.36
+YouTube,45-54,Daily,23.08
+YouTube,55-64,Daily,23.59
+YouTube,65-74,Daily,23.82
+YouTube,75+,Daily,21.9
+YouTube,NET,Daily,25.2
+YouTube,18-24,Several times a week,21.43
+YouTube,25-34,Several times a week,19.13
+YouTube,35-44,Several times a week,21.84
+YouTube,45-54,Several times a week,21.81
+YouTube,55-64,Several times a week,22.21
+YouTube,65-74,Several times a week,21.21
+YouTube,75+,Several times a week,27.08
+YouTube,NET,Several times a week,21.45
+YouTube,18-24,Weekly,6.53
+YouTube,25-34,Weekly,8.45
+YouTube,35-44,Weekly,11.65
+YouTube,45-54,Weekly,12.17
+YouTube,55-64,Weekly,14.22
+YouTube,65-74,Weekly,14.25
+YouTube,75+,Weekly,14.14
+YouTube,NET,Weekly,11.34
+YouTube,18-24,Fortnightly,3.32
+YouTube,25-34,Fortnightly,4.64
+YouTube,35-44,Fortnightly,4.92
+YouTube,45-54,Fortnightly,5.09
+YouTube,55-64,Fortnightly,6.46
+YouTube,65-74,Fortnightly,6.24
+YouTube,75+,Fortnightly,7.99
+YouTube,NET,Fortnightly,5.25
+YouTube,18-24,Monthly,2.92
+YouTube,25-34,Monthly,3.97
+YouTube,35-44,Monthly,3.31
+YouTube,45-54,Monthly,6.31
+YouTube,55-64,Monthly,8.14
+YouTube,65-74,Monthly,9.7
+YouTube,75+,Monthly,6.43
+YouTube,NET,Monthly,5.56
+YouTube,18-24,Less often than monthly,1.75
+YouTube,25-34,Less often than monthly,1.99
+YouTube,35-44,Less often than monthly,1.04
+YouTube,45-54,Less often than monthly,5.51
+YouTube,55-64,Less often than monthly,6.66
+YouTube,65-74,Less often than monthly,8.55
+YouTube,75+,Less often than monthly,11.5
+YouTube,NET,Less often than monthly,4.36
+YouTube,18-24,Refused + Don't know,0.21
+YouTube,25-34,Refused + Don't know,0.07
+YouTube,35-44,Refused + Don't know,0.0
+YouTube,45-54,Refused + Don't know,0.0
+YouTube,55-64,Refused + Don't know,0.26
+YouTube,65-74,Refused + Don't know,0.0
+YouTube,75+,Refused + Don't know,0.0
+YouTube,NET,Refused + Don't know,0.08
+YouTube,18-24,At least once a day,63.85
+YouTube,25-34,At least once a day,61.75
+YouTube,35-44,At least once a day,57.25
+YouTube,45-54,At least once a day,49.1
+YouTube,55-64,At least once a day,42.06
+YouTube,65-74,At least once a day,40.05
+YouTube,75+,At least once a day,32.86
+YouTube,NET,At least once a day,51.96
+YouTube,18-24,NET,100.0
+YouTube,25-34,NET,100.0
+YouTube,35-44,NET,100.0
+YouTube,45-54,NET,100.0
+YouTube,55-64,NET,100.0
+YouTube,65-74,NET,100.0
+YouTube,75+,NET,100.0
+WeChat,18-24,Multiple times a day,21.95
+WeChat,25-34,Multiple times a day,39.41
+WeChat,35-44,Multiple times a day,33.22
+WeChat,45-54,Multiple times a day,33.74
+WeChat,55-64,Multiple times a day,16.68
+WeChat,65-74,Multiple times a day,19.98
+WeChat,75+,Multiple times a day,0.0
+WeChat,NET,Multiple times a day,30.33
+WeChat,18-24,Daily,15.48
+WeChat,25-34,Daily,25.61
+WeChat,35-44,Daily,18.21
+WeChat,45-54,Daily,16.07
+WeChat,55-64,Daily,20.66
+WeChat,65-74,Daily,20.42
+WeChat,75+,Daily,0.0
+WeChat,NET,Daily,18.64
+WeChat,18-24,Several times a week,24.25
+WeChat,25-34,Several times a week,16.92
+WeChat,35-44,Several times a week,17.1
+WeChat,45-54,Several times a week,17.27
+WeChat,55-64,Several times a week,11.82
+WeChat,65-74,Several times a week,42.34
+WeChat,75+,Several times a week,0.0
+WeChat,NET,Several times a week,19.4
+WeChat,18-24,Weekly,6.47
+WeChat,25-34,Weekly,5.67
+WeChat,35-44,Weekly,3.14
+WeChat,45-54,Weekly,13.69
+WeChat,55-64,Weekly,16.35
+WeChat,65-74,Weekly,0.0
+WeChat,75+,Weekly,3.49
+WeChat,NET,Weekly,6.73
+WeChat,18-24,Fortnightly,15.15
+WeChat,25-34,Fortnightly,2.55
+WeChat,35-44,Fortnightly,5.25
+WeChat,45-54,Fortnightly,3.02
+WeChat,55-64,Fortnightly,0.0
+WeChat,65-74,Fortnightly,7.01
+WeChat,75+,Fortnightly,0.0
+WeChat,NET,Fortnightly,6.01
+WeChat,18-24,Monthly,10.07
+WeChat,25-34,Monthly,4.29
+WeChat,35-44,Monthly,5.15
+WeChat,45-54,Monthly,8.74
+WeChat,55-64,Monthly,19.43
+WeChat,65-74,Monthly,0.0
+WeChat,75+,Monthly,31.17
+WeChat,NET,Monthly,7.39
+WeChat,18-24,Less often than monthly,6.63
+WeChat,25-34,Less often than monthly,5.55
+WeChat,35-44,Less often than monthly,17.92
+WeChat,45-54,Less often than monthly,7.47
+WeChat,55-64,Less often than monthly,15.05
+WeChat,65-74,Less often than monthly,10.25
+WeChat,75+,Less often than monthly,48.54
+WeChat,NET,Less often than monthly,11.23
+WeChat,18-24,Refused + Don't know,0.0
+WeChat,25-34,Refused + Don't know,0.0
+WeChat,35-44,Refused + Don't know,0.0
+WeChat,45-54,Refused + Don't know,0.0
+WeChat,55-64,Refused + Don't know,0.0
+WeChat,65-74,Refused + Don't know,0.0
+WeChat,75+,Refused + Don't know,16.8
+WeChat,NET,Refused + Don't know,0.27
+WeChat,18-24,At least once a day,37.42
+WeChat,25-34,At least once a day,65.02
+WeChat,35-44,At least once a day,51.43
+WeChat,45-54,At least once a day,49.81
+WeChat,55-64,At least once a day,37.35
+WeChat,65-74,At least once a day,40.4
+WeChat,75+,At least once a day,0.0
+WeChat,NET,At least once a day,48.98
+WeChat,18-24,NET,100.0
+WeChat,25-34,NET,100.0
+WeChat,35-44,NET,100.0
+WeChat,45-54,NET,100.0
+WeChat,55-64,NET,100.0
+WeChat,65-74,NET,100.0
+WeChat,75+,NET,100.0
+WhatsApp,18-24,Multiple times a day,26.77
+WhatsApp,25-34,Multiple times a day,29.26
+WhatsApp,35-44,Multiple times a day,41.93
+WhatsApp,45-54,Multiple times a day,30.36
+WhatsApp,55-64,Multiple times a day,17.31
+WhatsApp,65-74,Multiple times a day,15.91
+WhatsApp,75+,Multiple times a day,11.83
+WhatsApp,NET,Multiple times a day,27.66
+WhatsApp,18-24,Daily,23.95
+WhatsApp,25-34,Daily,24.28
+WhatsApp,35-44,Daily,16.98
+WhatsApp,45-54,Daily,18.5
+WhatsApp,55-64,Daily,18.93
+WhatsApp,65-74,Daily,14.28
+WhatsApp,75+,Daily,13.07
+WhatsApp,NET,Daily,19.11
+WhatsApp,18-24,Several times a week,23.65
+WhatsApp,25-34,Several times a week,19.08
+WhatsApp,35-44,Several times a week,16.39
+WhatsApp,45-54,Several times a week,19.14
+WhatsApp,55-64,Several times a week,23.17
+WhatsApp,65-74,Several times a week,18.94
+WhatsApp,75+,Several times a week,24.29
+WhatsApp,NET,Several times a week,19.82
+WhatsApp,18-24,Weekly,8.87
+WhatsApp,25-34,Weekly,11.7
+WhatsApp,35-44,Weekly,9.45
+WhatsApp,45-54,Weekly,10.19
+WhatsApp,55-64,Weekly,10.75
+WhatsApp,65-74,Weekly,18.79
+WhatsApp,75+,Weekly,15.31
+WhatsApp,NET,Weekly,11.61
+WhatsApp,18-24,Fortnightly,5.31
+WhatsApp,25-34,Fortnightly,4.82
+WhatsApp,35-44,Fortnightly,4.9
+WhatsApp,45-54,Fortnightly,5.55
+WhatsApp,55-64,Fortnightly,5.12
+WhatsApp,65-74,Fortnightly,8.3
+WhatsApp,75+,Fortnightly,7.54
+WhatsApp,NET,Fortnightly,5.65
+WhatsApp,18-24,Monthly,6.29
+WhatsApp,25-34,Monthly,4.0
+WhatsApp,35-44,Monthly,4.22
+WhatsApp,45-54,Monthly,8.31
+WhatsApp,55-64,Monthly,10.19
+WhatsApp,65-74,Monthly,10.25
+WhatsApp,75+,Monthly,10.92
+WhatsApp,NET,Monthly,7.05
+WhatsApp,18-24,Less often than monthly,5.18
+WhatsApp,25-34,Less often than monthly,6.51
+WhatsApp,35-44,Less often than monthly,6.14
+WhatsApp,45-54,Less often than monthly,7.63
+WhatsApp,55-64,Less often than monthly,14.18
+WhatsApp,65-74,Less often than monthly,13.4
+WhatsApp,75+,Less often than monthly,17.03
+WhatsApp,NET,Less often than monthly,8.91
+WhatsApp,18-24,Refused + Don't know,0.0
+WhatsApp,25-34,Refused + Don't know,0.35
+WhatsApp,35-44,Refused + Don't know,0.0
+WhatsApp,45-54,Refused + Don't know,0.32
+WhatsApp,55-64,Refused + Don't know,0.36
+WhatsApp,65-74,Refused + Don't know,0.13
+WhatsApp,75+,Refused + Don't know,0.0
+WhatsApp,NET,Refused + Don't know,0.19
+WhatsApp,18-24,At least once a day,50.71
+WhatsApp,25-34,At least once a day,53.55
+WhatsApp,35-44,At least once a day,58.91
+WhatsApp,45-54,At least once a day,48.85
+WhatsApp,55-64,At least once a day,36.24
+WhatsApp,65-74,At least once a day,30.19
+WhatsApp,75+,At least once a day,24.9
+WhatsApp,NET,At least once a day,46.77
+WhatsApp,18-24,NET,100.0
+WhatsApp,25-34,NET,100.0
+WhatsApp,35-44,NET,100.0
+WhatsApp,45-54,NET,100.0
+WhatsApp,55-64,NET,100.0
+WhatsApp,65-74,NET,100.0
+WhatsApp,75+,NET,100.0
+X,18-24,Multiple times a day,22.43
+X,25-34,Multiple times a day,25.12
+X,35-44,Multiple times a day,20.9
+X,45-54,Multiple times a day,24.24
+X,55-64,Multiple times a day,20.63
+X,65-74,Multiple times a day,32.12
+X,75+,Multiple times a day,0.0
+X,NET,Multiple times a day,22.92
+X,18-24,Daily,19.77
+X,25-34,Daily,15.47
+X,35-44,Daily,25.2
+X,45-54,Daily,20.45
+X,55-64,Daily,16.73
+X,65-74,Daily,23.17
+X,75+,Daily,24.8
+X,NET,Daily,20.02
+X,18-24,Several times a week,16.6
+X,25-34,Several times a week,23.15
+X,35-44,Several times a week,16.61
+X,45-54,Several times a week,18.01
+X,55-64,Several times a week,18.56
+X,65-74,Several times a week,9.36
+X,75+,Several times a week,38.35
+X,NET,Several times a week,18.58
+X,18-24,Weekly,14.77
+X,25-34,Weekly,13.06
+X,35-44,Weekly,15.73
+X,45-54,Weekly,10.25
+X,55-64,Weekly,14.88
+X,65-74,Weekly,12.03
+X,75+,Weekly,17.97
+X,NET,Weekly,13.82
+X,18-24,Fortnightly,11.12
+X,25-34,Fortnightly,8.41
+X,35-44,Fortnightly,5.66
+X,45-54,Fortnightly,3.91
+X,55-64,Fortnightly,7.36
+X,65-74,Fortnightly,5.36
+X,75+,Fortnightly,0.0
+X,NET,Fortnightly,7.24
+X,18-24,Monthly,8.92
+X,25-34,Monthly,9.35
+X,35-44,Monthly,7.37
+X,45-54,Monthly,12.44
+X,55-64,Monthly,9.69
+X,65-74,Monthly,6.24
+X,75+,Monthly,18.88
+X,NET,Monthly,9.32
+X,18-24,Less often than monthly,6.38
+X,25-34,Less often than monthly,5.35
+X,35-44,Less often than monthly,8.22
+X,45-54,Less often than monthly,10.71
+X,55-64,Less often than monthly,12.14
+X,65-74,Less often than monthly,11.72
+X,75+,Less often than monthly,0.0
+X,NET,Less often than monthly,8.01
+X,18-24,Refused + Don't know,0.0
+X,25-34,Refused + Don't know,0.09
+X,35-44,Refused + Don't know,0.32
+X,45-54,Refused + Don't know,0.0
+X,55-64,Refused + Don't know,0.0
+X,65-74,Refused + Don't know,0.0
+X,75+,Refused + Don't know,0.0
+X,NET,Refused + Don't know,0.09
+X,18-24,At least once a day,42.21
+X,25-34,At least once a day,40.58
+X,35-44,At least once a day,46.09
+X,45-54,At least once a day,44.68
+X,55-64,At least once a day,37.37
+X,65-74,At least once a day,55.29
+X,75+,At least once a day,24.8
+X,NET,At least once a day,42.93
+X,18-24,NET,100.0
+X,25-34,NET,100.0
+X,35-44,NET,100.0
+X,45-54,NET,100.0
+X,55-64,NET,100.0
+X,65-74,NET,100.0
+X,75+,NET,100.0
+Discord,18-24,Multiple times a day,27.81
+Discord,25-34,Multiple times a day,19.79
+Discord,35-44,Multiple times a day,8.94
+Discord,45-54,Multiple times a day,10.68
+Discord,55-64,Multiple times a day,10.86
+Discord,65-74,Multiple times a day,5.15
+Discord,75+,Multiple times a day,0.0
+Discord,NET,Multiple times a day,18.22
+Discord,18-24,Daily,21.21
+Discord,25-34,Daily,23.14
+Discord,35-44,Daily,15.32
+Discord,45-54,Daily,5.4
+Discord,55-64,Daily,8.57
+Discord,65-74,Daily,0.0
+Discord,75+,Daily,0.0
+Discord,NET,Daily,18.03
+Discord,18-24,Several times a week,15.72
+Discord,25-34,Several times a week,19.22
+Discord,35-44,Several times a week,25.42
+Discord,45-54,Several times a week,15.24
+Discord,55-64,Several times a week,27.81
+Discord,65-74,Several times a week,0.0
+Discord,75+,Several times a week,48.23
+Discord,NET,Several times a week,19.27
+Discord,18-24,Weekly,12.23
+Discord,25-34,Weekly,11.85
+Discord,35-44,Weekly,17.06
+Discord,45-54,Weekly,22.97
+Discord,55-64,Weekly,12.65
+Discord,65-74,Weekly,62.97
+Discord,75+,Weekly,0.0
+Discord,NET,Weekly,14.88
+Discord,18-24,Fortnightly,7.76
+Discord,25-34,Fortnightly,7.1
+Discord,35-44,Fortnightly,8.21
+Discord,45-54,Fortnightly,7.81
+Discord,55-64,Fortnightly,2.5
+Discord,65-74,Fortnightly,4.02
+Discord,75+,Fortnightly,0.0
+Discord,NET,Fortnightly,7.49
+Discord,18-24,Monthly,6.6
+Discord,25-34,Monthly,6.54
+Discord,35-44,Monthly,5.34
+Discord,45-54,Monthly,17.43
+Discord,55-64,Monthly,9.3
+Discord,65-74,Monthly,12.84
+Discord,75+,Monthly,0.0
+Discord,NET,Monthly,7.55
+Discord,18-24,Less often than monthly,8.67
+Discord,25-34,Less often than monthly,12.37
+Discord,35-44,Less often than monthly,19.7
+Discord,45-54,Less often than monthly,19.91
+Discord,55-64,Less often than monthly,28.31
+Discord,65-74,Less often than monthly,15.02
+Discord,75+,Less often than monthly,51.77
+Discord,NET,Less often than monthly,14.51
+Discord,18-24,Refused + Don't know,0.0
+Discord,25-34,Refused + Don't know,0.0
+Discord,35-44,Refused + Don't know,0.0
+Discord,45-54,Refused + Don't know,0.56
+Discord,55-64,Refused + Don't know,0.0
+Discord,65-74,Refused + Don't know,0.0
+Discord,75+,Refused + Don't know,0.0
+Discord,NET,Refused + Don't know,0.05
+Discord,18-24,At least once a day,49.02
+Discord,25-34,At least once a day,42.92
+Discord,35-44,At least once a day,24.26
+Discord,45-54,At least once a day,16.08
+Discord,55-64,At least once a day,19.43
+Discord,65-74,At least once a day,5.15
+Discord,75+,At least once a day,0.0
+Discord,NET,At least once a day,36.25
+Discord,18-24,NET,100.0
+Discord,25-34,NET,100.0
+Discord,35-44,NET,100.0
+Discord,45-54,NET,100.0
+Discord,55-64,NET,100.0
+Discord,65-74,NET,100.0
+Discord,75+,NET,100.0
+Telegram,18-24,Multiple times a day,13.52
+Telegram,25-34,Multiple times a day,10.25
+Telegram,35-44,Multiple times a day,21.04
+Telegram,45-54,Multiple times a day,21.36
+Telegram,55-64,Multiple times a day,9.74
+Telegram,65-74,Multiple times a day,30.51
+Telegram,75+,Multiple times a day,22.93
+Telegram,NET,Multiple times a day,16.59
+Telegram,18-24,Daily,23.8
+Telegram,25-34,Daily,22.49
+Telegram,35-44,Daily,16.67
+Telegram,45-54,Daily,16.82
+Telegram,55-64,Daily,13.93
+Telegram,65-74,Daily,12.77
+Telegram,75+,Daily,43.41
+Telegram,NET,Daily,19.39
+Telegram,18-24,Several times a week,27.57
+Telegram,25-34,Several times a week,31.55
+Telegram,35-44,Several times a week,19.3
+Telegram,45-54,Several times a week,18.6
+Telegram,55-64,Several times a week,16.71
+Telegram,65-74,Several times a week,15.19
+Telegram,75+,Several times a week,0.0
+Telegram,NET,Several times a week,23.41
+Telegram,18-24,Weekly,11.24
+Telegram,25-34,Weekly,12.66
+Telegram,35-44,Weekly,17.15
+Telegram,45-54,Weekly,8.21
+Telegram,55-64,Weekly,8.31
+Telegram,65-74,Weekly,17.17
+Telegram,75+,Weekly,0.0
+Telegram,NET,Weekly,12.55
+Telegram,18-24,Fortnightly,7.96
+Telegram,25-34,Fortnightly,10.17
+Telegram,35-44,Fortnightly,6.88
+Telegram,45-54,Fortnightly,2.61
+Telegram,55-64,Fortnightly,6.0
+Telegram,65-74,Fortnightly,9.76
+Telegram,75+,Fortnightly,7.78
+Telegram,NET,Fortnightly,7.29
+Telegram,18-24,Monthly,6.17
+Telegram,25-34,Monthly,7.41
+Telegram,35-44,Monthly,5.53
+Telegram,45-54,Monthly,15.58
+Telegram,55-64,Monthly,8.82
+Telegram,65-74,Monthly,2.05
+Telegram,75+,Monthly,0.0
+Telegram,NET,Monthly,7.69
+Telegram,18-24,Less often than monthly,9.74
+Telegram,25-34,Less often than monthly,5.46
+Telegram,35-44,Less often than monthly,13.43
+Telegram,45-54,Less often than monthly,16.81
+Telegram,55-64,Less often than monthly,36.49
+Telegram,65-74,Less often than monthly,12.54
+Telegram,75+,Less often than monthly,25.89
+Telegram,NET,Less often than monthly,13.08
+Telegram,18-24,Refused + Don't know,0.0
+Telegram,25-34,Refused + Don't know,0.0
+Telegram,35-44,Refused + Don't know,0.0
+Telegram,45-54,Refused + Don't know,0.0
+Telegram,55-64,Refused + Don't know,0.0
+Telegram,65-74,Refused + Don't know,0.0
+Telegram,75+,Refused + Don't know,0.0
+Telegram,NET,Refused + Don't know,0.0
+Telegram,18-24,At least once a day,37.32
+Telegram,25-34,At least once a day,32.74
+Telegram,35-44,At least once a day,37.71
+Telegram,45-54,At least once a day,38.18
+Telegram,55-64,At least once a day,23.67
+Telegram,65-74,At least once a day,43.28
+Telegram,75+,At least once a day,66.33
+Telegram,NET,At least once a day,35.98
+Telegram,18-24,NET,100.0
+Telegram,25-34,NET,100.0
+Telegram,35-44,NET,100.0
+Telegram,45-54,NET,100.0
+Telegram,55-64,NET,100.0
+Telegram,65-74,NET,100.0
+Telegram,75+,NET,100.0
+Signal,18-24,Multiple times a day,8.08
+Signal,25-34,Multiple times a day,20.14
+Signal,35-44,Multiple times a day,21.29
+Signal,45-54,Multiple times a day,10.71
+Signal,55-64,Multiple times a day,8.63
+Signal,65-74,Multiple times a day,27.16
+Signal,75+,Multiple times a day,2.08
+Signal,NET,Multiple times a day,16.65
+Signal,18-24,Daily,18.33
+Signal,25-34,Daily,19.23
+Signal,35-44,Daily,20.48
+Signal,45-54,Daily,12.68
+Signal,55-64,Daily,10.2
+Signal,65-74,Daily,21.53
+Signal,75+,Daily,0.0
+Signal,NET,Daily,16.98
+Signal,18-24,Several times a week,41.62
+Signal,25-34,Several times a week,27.0
+Signal,35-44,Several times a week,19.12
+Signal,45-54,Several times a week,22.97
+Signal,55-64,Several times a week,23.9
+Signal,65-74,Several times a week,6.84
+Signal,75+,Several times a week,6.31
+Signal,NET,Several times a week,22.3
+Signal,18-24,Weekly,7.8
+Signal,25-34,Weekly,7.89
+Signal,35-44,Weekly,11.06
+Signal,45-54,Weekly,24.6
+Signal,55-64,Weekly,25.05
+Signal,65-74,Weekly,0.0
+Signal,75+,Weekly,8.56
+Signal,NET,Weekly,13.03
+Signal,18-24,Fortnightly,0.0
+Signal,25-34,Fortnightly,0.54
+Signal,35-44,Fortnightly,11.85
+Signal,45-54,Fortnightly,4.13
+Signal,55-64,Fortnightly,7.6
+Signal,65-74,Fortnightly,23.28
+Signal,75+,Fortnightly,15.85
+Signal,NET,Fortnightly,7.81
+Signal,18-24,Monthly,7.06
+Signal,25-34,Monthly,14.94
+Signal,35-44,Monthly,6.02
+Signal,45-54,Monthly,10.65
+Signal,55-64,Monthly,0.0
+Signal,65-74,Monthly,0.94
+Signal,75+,Monthly,0.0
+Signal,NET,Monthly,7.5
+Signal,18-24,Less often than monthly,17.11
+Signal,25-34,Less often than monthly,10.26
+Signal,35-44,Less often than monthly,9.14
+Signal,45-54,Less often than monthly,14.26
+Signal,55-64,Less often than monthly,24.62
+Signal,65-74,Less often than monthly,20.25
+Signal,75+,Less often than monthly,67.21
+Signal,NET,Less often than monthly,15.41
+Signal,18-24,Refused + Don't know,0.0
+Signal,25-34,Refused + Don't know,0.0
+Signal,35-44,Refused + Don't know,1.04
+Signal,45-54,Refused + Don't know,0.0
+Signal,55-64,Refused + Don't know,0.0
+Signal,65-74,Refused + Don't know,0.0
+Signal,75+,Refused + Don't know,0.0
+Signal,NET,Refused + Don't know,0.31
+Signal,18-24,At least once a day,26.41
+Signal,25-34,At least once a day,39.36
+Signal,35-44,At least once a day,41.77
+Signal,45-54,At least once a day,23.39
+Signal,55-64,At least once a day,18.83
+Signal,65-74,At least once a day,48.69
+Signal,75+,At least once a day,2.08
+Signal,NET,At least once a day,33.63
+Signal,18-24,NET,100.0
+Signal,25-34,NET,100.0
+Signal,35-44,NET,100.0
+Signal,45-54,NET,100.0
+Signal,55-64,NET,100.0
+Signal,65-74,NET,100.0
+Signal,75+,NET,100.0
+Reddit,18-24,Multiple times a day,19.61
+Reddit,25-34,Multiple times a day,18.71
+Reddit,35-44,Multiple times a day,16.59
+Reddit,45-54,Multiple times a day,10.81
+Reddit,55-64,Multiple times a day,6.41
+Reddit,65-74,Multiple times a day,2.55
+Reddit,75+,Multiple times a day,0.0
+Reddit,NET,Multiple times a day,15.51
+Reddit,18-24,Daily,17.14
+Reddit,25-34,Daily,20.48
+Reddit,35-44,Daily,12.91
+Reddit,45-54,Daily,13.7
+Reddit,55-64,Daily,7.21
+Reddit,65-74,Daily,4.62
+Reddit,75+,Daily,0.0
+Reddit,NET,Daily,15.28
+Reddit,18-24,Several times a week,21.31
+Reddit,25-34,Several times a week,26.23
+Reddit,35-44,Several times a week,25.99
+Reddit,45-54,Several times a week,25.34
+Reddit,55-64,Several times a week,14.07
+Reddit,65-74,Several times a week,19.12
+Reddit,75+,Several times a week,15.73
+Reddit,NET,Several times a week,23.8
+Reddit,18-24,Weekly,17.99
+Reddit,25-34,Weekly,13.58
+Reddit,35-44,Weekly,15.94
+Reddit,45-54,Weekly,13.6
+Reddit,55-64,Weekly,22.0
+Reddit,65-74,Weekly,11.88
+Reddit,75+,Weekly,24.53
+Reddit,NET,Weekly,15.66
+Reddit,18-24,Fortnightly,13.93
+Reddit,25-34,Fortnightly,8.65
+Reddit,35-44,Fortnightly,9.14
+Reddit,45-54,Fortnightly,9.67
+Reddit,55-64,Fortnightly,11.71
+Reddit,65-74,Fortnightly,3.41
+Reddit,75+,Fortnightly,0.0
+Reddit,NET,Fortnightly,9.7
+Reddit,18-24,Monthly,7.76
+Reddit,25-34,Monthly,7.15
+Reddit,35-44,Monthly,12.24
+Reddit,45-54,Monthly,11.8
+Reddit,55-64,Monthly,14.27
+Reddit,65-74,Monthly,14.05
+Reddit,75+,Monthly,28.45
+Reddit,NET,Monthly,10.18
+Reddit,18-24,Less often than monthly,2.26
+Reddit,25-34,Less often than monthly,5.2
+Reddit,35-44,Less often than monthly,7.19
+Reddit,45-54,Less often than monthly,15.07
+Reddit,55-64,Less often than monthly,24.33
+Reddit,65-74,Less often than monthly,44.37
+Reddit,75+,Less often than monthly,29.77
+Reddit,NET,Less often than monthly,9.85
+Reddit,18-24,Refused + Don't know,0.0
+Reddit,25-34,Refused + Don't know,0.0
+Reddit,35-44,Refused + Don't know,0.0
+Reddit,45-54,Refused + Don't know,0.0
+Reddit,55-64,Refused + Don't know,0.0
+Reddit,65-74,Refused + Don't know,0.0
+Reddit,75+,Refused + Don't know,1.53
+Reddit,NET,Refused + Don't know,0.02
+Reddit,18-24,At least once a day,36.75
+Reddit,25-34,At least once a day,39.19
+Reddit,35-44,At least once a day,29.5
+Reddit,45-54,At least once a day,24.51
+Reddit,55-64,At least once a day,13.63
+Reddit,65-74,At least once a day,7.17
+Reddit,75+,At least once a day,0.0
+Reddit,NET,At least once a day,30.8
+Reddit,18-24,NET,100.0
+Reddit,25-34,NET,100.0
+Reddit,35-44,NET,100.0
+Reddit,45-54,NET,100.0
+Reddit,55-64,NET,100.0
+Reddit,65-74,NET,100.0
+Reddit,75+,NET,100.0
+Threads,18-24,Multiple times a day,12.44
+Threads,25-34,Multiple times a day,7.07
+Threads,35-44,Multiple times a day,15.03
+Threads,45-54,Multiple times a day,7.27
+Threads,55-64,Multiple times a day,8.44
+Threads,65-74,Multiple times a day,13.33
+Threads,75+,Multiple times a day,0.0
+Threads,NET,Multiple times a day,10.18
+Threads,18-24,Daily,15.76
+Threads,25-34,Daily,15.29
+Threads,35-44,Daily,22.64
+Threads,45-54,Daily,16.84
+Threads,55-64,Daily,20.41
+Threads,65-74,Daily,17.02
+Threads,75+,Daily,0.0
+Threads,NET,Daily,17.73
+Threads,18-24,Several times a week,22.78
+Threads,25-34,Several times a week,26.42
+Threads,35-44,Several times a week,31.45
+Threads,45-54,Several times a week,21.62
+Threads,55-64,Several times a week,32.18
+Threads,65-74,Several times a week,19.71
+Threads,75+,Several times a week,28.71
+Threads,NET,Several times a week,26.47
+Threads,18-24,Weekly,26.34
+Threads,25-34,Weekly,21.99
+Threads,35-44,Weekly,9.64
+Threads,45-54,Weekly,22.49
+Threads,55-64,Weekly,16.84
+Threads,65-74,Weekly,20.23
+Threads,75+,Weekly,0.0
+Threads,NET,Weekly,19.29
+Threads,18-24,Fortnightly,15.73
+Threads,25-34,Fortnightly,9.52
+Threads,35-44,Fortnightly,7.2
+Threads,45-54,Fortnightly,5.1
+Threads,55-64,Fortnightly,4.27
+Threads,65-74,Fortnightly,3.23
+Threads,75+,Fortnightly,9.4
+Threads,NET,Fortnightly,8.61
+Threads,18-24,Monthly,5.25
+Threads,25-34,Monthly,9.39
+Threads,35-44,Monthly,5.23
+Threads,45-54,Monthly,14.48
+Threads,55-64,Monthly,1.82
+Threads,65-74,Monthly,0.0
+Threads,75+,Monthly,45.79
+Threads,NET,Monthly,7.64
+Threads,18-24,Less often than monthly,1.69
+Threads,25-34,Less often than monthly,10.33
+Threads,35-44,Less often than monthly,8.81
+Threads,45-54,Less often than monthly,12.2
+Threads,55-64,Less often than monthly,16.04
+Threads,65-74,Less often than monthly,26.47
+Threads,75+,Less often than monthly,16.09
+Threads,NET,Less often than monthly,10.08
+Threads,18-24,Refused + Don't know,0.0
+Threads,25-34,Refused + Don't know,0.0
+Threads,35-44,Refused + Don't know,0.0
+Threads,45-54,Refused + Don't know,0.0
+Threads,55-64,Refused + Don't know,0.0
+Threads,65-74,Refused + Don't know,0.0
+Threads,75+,Refused + Don't know,0.0
+Threads,NET,Refused + Don't know,0.0
+Threads,18-24,At least once a day,28.2
+Threads,25-34,At least once a day,22.36
+Threads,35-44,At least once a day,37.67
+Threads,45-54,At least once a day,24.11
+Threads,55-64,At least once a day,28.85
+Threads,65-74,At least once a day,30.36
+Threads,75+,At least once a day,0.0
+Threads,NET,At least once a day,27.91
+Threads,18-24,NET,100.0
+Threads,25-34,NET,100.0
+Threads,35-44,NET,100.0
+Threads,45-54,NET,100.0
+Threads,55-64,NET,100.0
+Threads,65-74,NET,100.0
+Threads,75+,NET,100.0
+LinkedIn,18-24,Multiple times a day,10.05
+LinkedIn,25-34,Multiple times a day,8.92
+LinkedIn,35-44,Multiple times a day,11.89
+LinkedIn,45-54,Multiple times a day,9.32
+LinkedIn,55-64,Multiple times a day,7.43
+LinkedIn,65-74,Multiple times a day,2.73
+LinkedIn,75+,Multiple times a day,4.29
+LinkedIn,NET,Multiple times a day,9.11
+LinkedIn,18-24,Daily,19.99
+LinkedIn,25-34,Daily,17.45
+LinkedIn,35-44,Daily,12.04
+LinkedIn,45-54,Daily,15.17
+LinkedIn,55-64,Daily,11.37
+LinkedIn,65-74,Daily,6.08
+LinkedIn,75+,Daily,2.29
+LinkedIn,NET,Daily,14.06
+LinkedIn,18-24,Several times a week,23.5
+LinkedIn,25-34,Several times a week,18.59
+LinkedIn,35-44,Several times a week,22.25
+LinkedIn,45-54,Several times a week,18.52
+LinkedIn,55-64,Several times a week,19.24
+LinkedIn,65-74,Several times a week,13.5
+LinkedIn,75+,Several times a week,22.52
+LinkedIn,NET,Several times a week,19.86
+LinkedIn,18-24,Weekly,22.99
+LinkedIn,25-34,Weekly,18.51
+LinkedIn,35-44,Weekly,20.65
+LinkedIn,45-54,Weekly,22.17
+LinkedIn,55-64,Weekly,11.0
+LinkedIn,65-74,Weekly,22.3
+LinkedIn,75+,Weekly,18.22
+LinkedIn,NET,Weekly,19.52
+LinkedIn,18-24,Fortnightly,12.76
+LinkedIn,25-34,Fortnightly,13.92
+LinkedIn,35-44,Fortnightly,10.56
+LinkedIn,45-54,Fortnightly,7.2
+LinkedIn,55-64,Fortnightly,9.68
+LinkedIn,65-74,Fortnightly,10.0
+LinkedIn,75+,Fortnightly,19.75
+LinkedIn,NET,Fortnightly,10.94
+LinkedIn,18-24,Monthly,3.33
+LinkedIn,25-34,Monthly,12.95
+LinkedIn,35-44,Monthly,11.73
+LinkedIn,45-54,Monthly,14.73
+LinkedIn,55-64,Monthly,17.44
+LinkedIn,65-74,Monthly,17.39
+LinkedIn,75+,Monthly,11.49
+LinkedIn,NET,Monthly,12.75
+LinkedIn,18-24,Less often than monthly,7.38
+LinkedIn,25-34,Less often than monthly,9.66
+LinkedIn,35-44,Less often than monthly,10.89
+LinkedIn,45-54,Less often than monthly,12.89
+LinkedIn,55-64,Less often than monthly,23.83
+LinkedIn,65-74,Less often than monthly,28.0
+LinkedIn,75+,Less often than monthly,21.42
+LinkedIn,NET,Less often than monthly,13.77
+LinkedIn,18-24,Refused + Don't know,0.0
+LinkedIn,25-34,Refused + Don't know,0.0
+LinkedIn,35-44,Refused + Don't know,0.0
+LinkedIn,45-54,Refused + Don't know,0.0
+LinkedIn,55-64,Refused + Don't know,0.0
+LinkedIn,65-74,Refused + Don't know,0.0
+LinkedIn,75+,Refused + Don't know,0.0
+LinkedIn,NET,Refused + Don't know,0.0
+LinkedIn,18-24,At least once a day,30.04
+LinkedIn,25-34,At least once a day,26.37
+LinkedIn,35-44,At least once a day,23.92
+LinkedIn,45-54,At least once a day,24.5
+LinkedIn,55-64,At least once a day,18.8
+LinkedIn,65-74,At least once a day,8.81
+LinkedIn,75+,At least once a day,6.59
+LinkedIn,NET,At least once a day,23.17
+LinkedIn,18-24,NET,100.0
+LinkedIn,25-34,NET,100.0
+LinkedIn,35-44,NET,100.0
+LinkedIn,45-54,NET,100.0
+LinkedIn,55-64,NET,100.0
+LinkedIn,65-74,NET,100.0
+LinkedIn,75+,NET,100.0
+Twitch,18-24,Multiple times a day,5.44
+Twitch,25-34,Multiple times a day,7.99
+Twitch,35-44,Multiple times a day,8.66
+Twitch,45-54,Multiple times a day,5.42
+Twitch,55-64,Multiple times a day,0.0
+Twitch,65-74,Multiple times a day,0.0
+Twitch,NET,Multiple times a day,6.86
+Twitch,18-24,Daily,15.72
+Twitch,25-34,Daily,20.85
+Twitch,35-44,Daily,7.33
+Twitch,45-54,Daily,0.0
+Twitch,55-64,Daily,0.0
+Twitch,65-74,Daily,9.92
+Twitch,NET,Daily,15.33
+Twitch,18-24,Several times a week,26.86
+Twitch,25-34,Several times a week,24.64
+Twitch,35-44,Several times a week,38.71
+Twitch,45-54,Several times a week,43.83
+Twitch,55-64,Several times a week,0.0
+Twitch,65-74,Several times a week,62.08
+Twitch,NET,Several times a week,28.56
+Twitch,18-24,Weekly,15.36
+Twitch,25-34,Weekly,10.85
+Twitch,35-44,Weekly,16.88
+Twitch,45-54,Weekly,16.11
+Twitch,55-64,Weekly,41.73
+Twitch,65-74,Weekly,19.35
+Twitch,NET,Weekly,14.07
+Twitch,18-24,Fortnightly,9.82
+Twitch,25-34,Fortnightly,7.46
+Twitch,35-44,Fortnightly,4.13
+Twitch,45-54,Fortnightly,0.0
+Twitch,55-64,Fortnightly,51.1
+Twitch,65-74,Fortnightly,0.0
+Twitch,NET,Fortnightly,8.47
+Twitch,18-24,Monthly,14.83
+Twitch,25-34,Monthly,12.9
+Twitch,35-44,Monthly,14.51
+Twitch,45-54,Monthly,6.16
+Twitch,55-64,Monthly,7.17
+Twitch,65-74,Monthly,0.0
+Twitch,NET,Monthly,13.18
+Twitch,18-24,Less often than monthly,11.96
+Twitch,25-34,Less often than monthly,14.62
+Twitch,35-44,Less often than monthly,9.78
+Twitch,45-54,Less often than monthly,28.48
+Twitch,55-64,Less often than monthly,0.0
+Twitch,65-74,Less often than monthly,8.64
+Twitch,NET,Less often than monthly,13.23
+Twitch,18-24,Refused + Don't know,0.0
+Twitch,25-34,Refused + Don't know,0.69
+Twitch,35-44,Refused + Don't know,0.0
+Twitch,45-54,Refused + Don't know,0.0
+Twitch,55-64,Refused + Don't know,0.0
+Twitch,65-74,Refused + Don't know,0.0
+Twitch,NET,Refused + Don't know,0.29
+Twitch,18-24,At least once a day,21.16
+Twitch,25-34,At least once a day,28.83
+Twitch,35-44,At least once a day,15.99
+Twitch,45-54,At least once a day,5.42
+Twitch,55-64,At least once a day,0.0
+Twitch,65-74,At least once a day,9.92
+Twitch,NET,At least once a day,22.19
+Twitch,18-24,NET,100.0
+Twitch,25-34,NET,100.0
+Twitch,35-44,NET,100.0
+Twitch,45-54,NET,100.0
+Twitch,55-64,NET,100.0
+Twitch,65-74,NET,100.0
+Pinterest,18-24,Multiple times a day,12.32
+Pinterest,25-34,Multiple times a day,5.71
+Pinterest,35-44,Multiple times a day,6.34
+Pinterest,45-54,Multiple times a day,4.79
+Pinterest,55-64,Multiple times a day,4.09
+Pinterest,65-74,Multiple times a day,5.51
+Pinterest,75+,Multiple times a day,1.56
+Pinterest,NET,Multiple times a day,6.54
+Pinterest,18-24,Daily,16.5
+Pinterest,25-34,Daily,8.37
+Pinterest,35-44,Daily,10.82
+Pinterest,45-54,Daily,8.66
+Pinterest,55-64,Daily,3.79
+Pinterest,65-74,Daily,10.24
+Pinterest,75+,Daily,13.56
+Pinterest,NET,Daily,10.17
+Pinterest,18-24,Several times a week,23.77
+Pinterest,25-34,Several times a week,25.18
+Pinterest,35-44,Several times a week,18.95
+Pinterest,45-54,Several times a week,25.7
+Pinterest,55-64,Several times a week,20.06
+Pinterest,65-74,Several times a week,21.07
+Pinterest,75+,Several times a week,22.92
+Pinterest,NET,Several times a week,22.72
+Pinterest,18-24,Weekly,10.35
+Pinterest,25-34,Weekly,20.94
+Pinterest,35-44,Weekly,16.62
+Pinterest,45-54,Weekly,13.76
+Pinterest,55-64,Weekly,12.18
+Pinterest,65-74,Weekly,15.71
+Pinterest,75+,Weekly,13.61
+Pinterest,NET,Weekly,15.3
+Pinterest,18-24,Fortnightly,14.7
+Pinterest,25-34,Fortnightly,10.31
+Pinterest,35-44,Fortnightly,14.13
+Pinterest,45-54,Fortnightly,10.21
+Pinterest,55-64,Fortnightly,12.2
+Pinterest,65-74,Fortnightly,10.58
+Pinterest,75+,Fortnightly,16.88
+Pinterest,NET,Fortnightly,12.28
+Pinterest,18-24,Monthly,12.63
+Pinterest,25-34,Monthly,14.87
+Pinterest,35-44,Monthly,18.74
+Pinterest,45-54,Monthly,23.55
+Pinterest,55-64,Monthly,22.2
+Pinterest,65-74,Monthly,15.78
+Pinterest,75+,Monthly,9.15
+Pinterest,NET,Monthly,17.13
+Pinterest,18-24,Less often than monthly,9.72
+Pinterest,25-34,Less often than monthly,14.63
+Pinterest,35-44,Less often than monthly,14.4
+Pinterest,45-54,Less often than monthly,13.34
+Pinterest,55-64,Less often than monthly,25.48
+Pinterest,65-74,Less often than monthly,21.1
+Pinterest,75+,Less often than monthly,22.33
+Pinterest,NET,Less often than monthly,15.86
+Pinterest,18-24,Refused + Don't know,0.0
+Pinterest,25-34,Refused + Don't know,0.0
+Pinterest,35-44,Refused + Don't know,0.0
+Pinterest,45-54,Refused + Don't know,0.0
+Pinterest,55-64,Refused + Don't know,0.0
+Pinterest,65-74,Refused + Don't know,0.0
+Pinterest,75+,Refused + Don't know,0.0
+Pinterest,NET,Refused + Don't know,0.0
+Pinterest,18-24,At least once a day,28.82
+Pinterest,25-34,At least once a day,14.07
+Pinterest,35-44,At least once a day,17.16
+Pinterest,45-54,At least once a day,13.45
+Pinterest,55-64,At least once a day,7.88
+Pinterest,65-74,At least once a day,15.75
+Pinterest,75+,At least once a day,15.11
+Pinterest,NET,At least once a day,16.71
+Pinterest,18-24,NET,100.0
+Pinterest,25-34,NET,100.0
+Pinterest,35-44,NET,100.0
+Pinterest,45-54,NET,100.0
+Pinterest,55-64,NET,100.0
+Pinterest,65-74,NET,100.0
+Pinterest,75+,NET,100.0
+Viber,18-24,Multiple times a day,12.9
+Viber,25-34,Multiple times a day,9.04
+Viber,35-44,Multiple times a day,20.27
+Viber,45-54,Multiple times a day,11.57
+Viber,55-64,Multiple times a day,2.55
+Viber,65-74,Multiple times a day,4.96
+Viber,75+,Multiple times a day,0.0
+Viber,NET,Multiple times a day,12.05
+Viber,18-24,Daily,20.11
+Viber,25-34,Daily,16.32
+Viber,35-44,Daily,17.99
+Viber,45-54,Daily,5.7
+Viber,55-64,Daily,13.87
+Viber,65-74,Daily,8.59
+Viber,75+,Daily,75.64
+Viber,NET,Daily,14.45
+Viber,18-24,Several times a week,31.61
+Viber,25-34,Several times a week,17.99
+Viber,35-44,Several times a week,21.87
+Viber,45-54,Several times a week,33.25
+Viber,55-64,Several times a week,24.68
+Viber,65-74,Several times a week,30.05
+Viber,75+,Several times a week,0.0
+Viber,NET,Several times a week,25.87
+Viber,18-24,Weekly,7.9
+Viber,25-34,Weekly,14.56
+Viber,35-44,Weekly,6.46
+Viber,45-54,Weekly,15.48
+Viber,55-64,Weekly,0.0
+Viber,65-74,Weekly,11.65
+Viber,75+,Weekly,24.36
+Viber,NET,Weekly,9.81
+Viber,18-24,Fortnightly,5.74
+Viber,25-34,Fortnightly,19.35
+Viber,35-44,Fortnightly,10.58
+Viber,45-54,Fortnightly,11.62
+Viber,55-64,Fortnightly,0.0
+Viber,65-74,Fortnightly,11.98
+Viber,75+,Fortnightly,0.0
+Viber,NET,Fortnightly,10.45
+Viber,18-24,Monthly,7.37
+Viber,25-34,Monthly,5.77
+Viber,35-44,Monthly,11.59
+Viber,45-54,Monthly,9.46
+Viber,55-64,Monthly,19.15
+Viber,65-74,Monthly,22.03
+Viber,75+,Monthly,0.0
+Viber,NET,Monthly,11.54
+Viber,18-24,Less often than monthly,14.36
+Viber,25-34,Less often than monthly,16.97
+Viber,35-44,Less often than monthly,11.24
+Viber,45-54,Less often than monthly,12.94
+Viber,55-64,Less often than monthly,39.75
+Viber,65-74,Less often than monthly,10.74
+Viber,75+,Less often than monthly,0.0
+Viber,NET,Less often than monthly,15.84
+Viber,18-24,Refused + Don't know,0.0
+Viber,25-34,Refused + Don't know,0.0
+Viber,35-44,Refused + Don't know,0.0
+Viber,45-54,Refused + Don't know,0.0
+Viber,55-64,Refused + Don't know,0.0
+Viber,65-74,Refused + Don't know,0.0
+Viber,75+,Refused + Don't know,0.0
+Viber,NET,Refused + Don't know,0.0
+Viber,18-24,At least once a day,33.02
+Viber,25-34,At least once a day,25.36
+Viber,35-44,At least once a day,38.25
+Viber,45-54,At least once a day,17.26
+Viber,55-64,At least once a day,16.42
+Viber,65-74,At least once a day,13.55
+Viber,75+,At least once a day,75.64
+Viber,NET,At least once a day,26.5
+Viber,18-24,NET,100.0
+Viber,25-34,NET,100.0
+Viber,35-44,NET,100.0
+Viber,45-54,NET,100.0
+Viber,55-64,NET,100.0
+Viber,65-74,NET,100.0
+Viber,75+,NET,100.0
+Tumblr,18-24,Multiple times a day,10.25
+Tumblr,25-34,Multiple times a day,8.31
+Tumblr,35-44,Multiple times a day,6.6
+Tumblr,45-54,Multiple times a day,2.88
+Tumblr,55-64,Multiple times a day,0.0
+Tumblr,65-74,Multiple times a day,24.12
+Tumblr,75+,Multiple times a day,0.0
+Tumblr,NET,Multiple times a day,8.11
+Tumblr,18-24,Daily,15.13
+Tumblr,25-34,Daily,16.81
+Tumblr,35-44,Daily,22.72
+Tumblr,45-54,Daily,2.71
+Tumblr,55-64,Daily,0.0
+Tumblr,65-74,Daily,30.68
+Tumblr,75+,Daily,0.0
+Tumblr,NET,Daily,16.15
+Tumblr,18-24,Several times a week,26.65
+Tumblr,25-34,Several times a week,18.79
+Tumblr,35-44,Several times a week,24.94
+Tumblr,45-54,Several times a week,32.07
+Tumblr,55-64,Several times a week,0.0
+Tumblr,65-74,Several times a week,0.0
+Tumblr,75+,Several times a week,0.0
+Tumblr,NET,Several times a week,20.85
+Tumblr,18-24,Weekly,10.81
+Tumblr,25-34,Weekly,6.1
+Tumblr,35-44,Weekly,4.3
+Tumblr,45-54,Weekly,36.29
+Tumblr,55-64,Weekly,35.0
+Tumblr,65-74,Weekly,7.36
+Tumblr,75+,Weekly,0.0
+Tumblr,NET,Weekly,10.22
+Tumblr,18-24,Fortnightly,10.36
+Tumblr,25-34,Fortnightly,21.23
+Tumblr,35-44,Fortnightly,5.89
+Tumblr,45-54,Fortnightly,9.57
+Tumblr,55-64,Fortnightly,0.0
+Tumblr,65-74,Fortnightly,0.0
+Tumblr,75+,Fortnightly,0.0
+Tumblr,NET,Fortnightly,13.42
+Tumblr,18-24,Monthly,16.81
+Tumblr,25-34,Monthly,13.31
+Tumblr,35-44,Monthly,4.13
+Tumblr,45-54,Monthly,0.0
+Tumblr,55-64,Monthly,14.67
+Tumblr,65-74,Monthly,18.39
+Tumblr,75+,Monthly,0.0
+Tumblr,NET,Monthly,11.33
+Tumblr,18-24,Less often than monthly,9.98
+Tumblr,25-34,Less often than monthly,15.44
+Tumblr,35-44,Less often than monthly,31.42
+Tumblr,45-54,Less often than monthly,16.49
+Tumblr,55-64,Less often than monthly,50.32
+Tumblr,65-74,Less often than monthly,19.45
+Tumblr,75+,Less often than monthly,100.0
+Tumblr,NET,Less often than monthly,19.91
+Tumblr,18-24,Refused + Don't know,0.0
+Tumblr,25-34,Refused + Don't know,0.0
+Tumblr,35-44,Refused + Don't know,0.0
+Tumblr,45-54,Refused + Don't know,0.0
+Tumblr,55-64,Refused + Don't know,0.0
+Tumblr,65-74,Refused + Don't know,0.0
+Tumblr,75+,Refused + Don't know,0.0
+Tumblr,NET,Refused + Don't know,0.0
+Tumblr,18-24,At least once a day,25.38
+Tumblr,25-34,At least once a day,25.12
+Tumblr,35-44,At least once a day,29.31
+Tumblr,45-54,At least once a day,5.59
+Tumblr,55-64,At least once a day,0.0
+Tumblr,65-74,At least once a day,54.8
+Tumblr,75+,At least once a day,0.0
+Tumblr,NET,At least once a day,24.26
+Tumblr,18-24,NET,100.0
+Tumblr,25-34,NET,100.0
+Tumblr,35-44,NET,100.0
+Tumblr,45-54,NET,100.0
+Tumblr,55-64,NET,100.0
+Tumblr,65-74,NET,100.0
+Tumblr,75+,NET,100.0
+BlueSkye,18-24,Multiple times a day,0.0
+BlueSkye,25-34,Multiple times a day,9.84
+BlueSkye,35-44,Multiple times a day,7.57
+BlueSkye,45-54,Multiple times a day,5.22
+BlueSkye,55-64,Multiple times a day,9.73
+BlueSkye,65-74,Multiple times a day,24.61
+BlueSkye,75+,Multiple times a day,100.0
+BlueSkye,NET,Multiple times a day,8.39
+BlueSkye,18-24,Daily,8.97
+BlueSkye,25-34,Daily,19.22
+BlueSkye,35-44,Daily,13.06
+BlueSkye,45-54,Daily,11.52
+BlueSkye,55-64,Daily,22.46
+BlueSkye,65-74,Daily,3.85
+BlueSkye,75+,Daily,0.0
+BlueSkye,NET,Daily,14.03
+BlueSkye,18-24,Several times a week,32.29
+BlueSkye,25-34,Several times a week,13.85
+BlueSkye,35-44,Several times a week,25.82
+BlueSkye,45-54,Several times a week,28.23
+BlueSkye,55-64,Several times a week,11.9
+BlueSkye,65-74,Several times a week,24.09
+BlueSkye,75+,Several times a week,0.0
+BlueSkye,NET,Several times a week,22.48
+BlueSkye,18-24,Weekly,34.51
+BlueSkye,25-34,Weekly,8.77
+BlueSkye,35-44,Weekly,3.57
+BlueSkye,45-54,Weekly,17.41
+BlueSkye,55-64,Weekly,1.96
+BlueSkye,65-74,Weekly,18.11
+BlueSkye,75+,Weekly,0.0
+BlueSkye,NET,Weekly,12.54
+BlueSkye,18-24,Fortnightly,10.98
+BlueSkye,25-34,Fortnightly,17.64
+BlueSkye,35-44,Fortnightly,20.63
+BlueSkye,45-54,Fortnightly,14.12
+BlueSkye,55-64,Fortnightly,15.87
+BlueSkye,65-74,Fortnightly,6.4
+BlueSkye,75+,Fortnightly,0.0
+BlueSkye,NET,Fortnightly,15.88
+BlueSkye,18-24,Monthly,8.45
+BlueSkye,25-34,Monthly,3.65
+BlueSkye,35-44,Monthly,9.54
+BlueSkye,45-54,Monthly,20.45
+BlueSkye,55-64,Monthly,25.88
+BlueSkye,65-74,Monthly,10.47
+BlueSkye,75+,Monthly,0.0
+BlueSkye,NET,Monthly,11.14
+BlueSkye,18-24,Less often than monthly,4.8
+BlueSkye,25-34,Less often than monthly,27.04
+BlueSkye,35-44,Less often than monthly,19.83
+BlueSkye,45-54,Less often than monthly,3.04
+BlueSkye,55-64,Less often than monthly,12.19
+BlueSkye,65-74,Less often than monthly,12.47
+BlueSkye,75+,Less often than monthly,0.0
+BlueSkye,NET,Less often than monthly,15.55
+BlueSkye,18-24,Refused + Don't know,0.0
+BlueSkye,25-34,Refused + Don't know,0.0
+BlueSkye,35-44,Refused + Don't know,0.0
+BlueSkye,45-54,Refused + Don't know,0.0
+BlueSkye,55-64,Refused + Don't know,0.0
+BlueSkye,65-74,Refused + Don't know,0.0
+BlueSkye,75+,Refused + Don't know,0.0
+BlueSkye,NET,Refused + Don't know,0.0
+BlueSkye,18-24,At least once a day,8.97
+BlueSkye,25-34,At least once a day,29.06
+BlueSkye,35-44,At least once a day,20.62
+BlueSkye,45-54,At least once a day,16.74
+BlueSkye,55-64,At least once a day,32.19
+BlueSkye,65-74,At least once a day,28.45
+BlueSkye,75+,At least once a day,100.0
+BlueSkye,NET,At least once a day,22.42
+BlueSkye,18-24,NET,100.0
+BlueSkye,25-34,NET,100.0
+BlueSkye,35-44,NET,100.0
+BlueSkye,45-54,NET,100.0
+BlueSkye,55-64,NET,100.0
+BlueSkye,65-74,NET,100.0
+BlueSkye,75+,NET,100.0
+FaceTime,18-24,Multiple times a day,9.53
+FaceTime,25-34,Multiple times a day,7.56
+FaceTime,35-44,Multiple times a day,10.71
+FaceTime,45-54,Multiple times a day,6.19
+FaceTime,55-64,Multiple times a day,5.22
+FaceTime,65-74,Multiple times a day,3.26
+FaceTime,75+,Multiple times a day,0.0
+FaceTime,NET,Multiple times a day,7.25
+FaceTime,18-24,Daily,14.94
+FaceTime,25-34,Daily,11.66
+FaceTime,35-44,Daily,8.98
+FaceTime,45-54,Daily,6.74
+FaceTime,55-64,Daily,6.22
+FaceTime,65-74,Daily,5.13
+FaceTime,75+,Daily,7.6
+FaceTime,NET,Daily,9.28
+FaceTime,18-24,Several times a week,22.54
+FaceTime,25-34,Several times a week,19.81
+FaceTime,35-44,Several times a week,24.09
+FaceTime,45-54,Several times a week,16.47
+FaceTime,55-64,Several times a week,19.49
+FaceTime,65-74,Several times a week,17.38
+FaceTime,75+,Several times a week,12.39
+FaceTime,NET,Several times a week,19.97
+FaceTime,18-24,Weekly,21.09
+FaceTime,25-34,Weekly,18.37
+FaceTime,35-44,Weekly,17.92
+FaceTime,45-54,Weekly,22.79
+FaceTime,55-64,Weekly,22.16
+FaceTime,65-74,Weekly,20.91
+FaceTime,75+,Weekly,13.35
+FaceTime,NET,Weekly,19.99
+FaceTime,18-24,Fortnightly,14.21
+FaceTime,25-34,Fortnightly,13.3
+FaceTime,35-44,Fortnightly,13.57
+FaceTime,45-54,Fortnightly,17.35
+FaceTime,55-64,Fortnightly,12.39
+FaceTime,65-74,Fortnightly,17.42
+FaceTime,75+,Fortnightly,13.01
+FaceTime,NET,Fortnightly,14.49
+FaceTime,18-24,Monthly,10.06
+FaceTime,25-34,Monthly,14.86
+FaceTime,35-44,Monthly,9.75
+FaceTime,45-54,Monthly,11.03
+FaceTime,55-64,Monthly,15.61
+FaceTime,65-74,Monthly,12.48
+FaceTime,75+,Monthly,19.02
+FaceTime,NET,Monthly,12.45
+FaceTime,18-24,Less often than monthly,7.62
+FaceTime,25-34,Less often than monthly,14.44
+FaceTime,35-44,Less often than monthly,14.97
+FaceTime,45-54,Less often than monthly,19.43
+FaceTime,55-64,Less often than monthly,18.91
+FaceTime,65-74,Less often than monthly,23.42
+FaceTime,75+,Less often than monthly,32.52
+FaceTime,NET,Less often than monthly,16.49
+FaceTime,18-24,Refused + Don't know,0.0
+FaceTime,25-34,Refused + Don't know,0.0
+FaceTime,35-44,Refused + Don't know,0.0
+FaceTime,45-54,Refused + Don't know,0.0
+FaceTime,55-64,Refused + Don't know,0.0
+FaceTime,65-74,Refused + Don't know,0.0
+FaceTime,75+,Refused + Don't know,2.11
+FaceTime,NET,Refused + Don't know,0.08
+FaceTime,18-24,At least once a day,24.48
+FaceTime,25-34,At least once a day,19.22
+FaceTime,35-44,At least once a day,19.69
+FaceTime,45-54,At least once a day,12.93
+FaceTime,55-64,At least once a day,11.44
+FaceTime,65-74,At least once a day,8.39
+FaceTime,75+,At least once a day,7.6
+FaceTime,NET,At least once a day,16.53
+FaceTime,18-24,NET,100.0
+FaceTime,25-34,NET,100.0
+FaceTime,35-44,NET,100.0
+FaceTime,45-54,NET,100.0
+FaceTime,55-64,NET,100.0
+FaceTime,65-74,NET,100.0
+FaceTime,75+,NET,100.0
+LINE,18-24,Multiple times a day,17.45
+LINE,25-34,Multiple times a day,32.27
+LINE,35-44,Multiple times a day,28.06
+LINE,45-54,Multiple times a day,39.5
+LINE,55-64,Multiple times a day,40.87
+LINE,65-74,Multiple times a day,7.79
+LINE,75+,Multiple times a day,0.0
+LINE,NET,Multiple times a day,26.94
+LINE,18-24,Daily,11.0
+LINE,25-34,Daily,31.05
+LINE,35-44,Daily,17.66
+LINE,45-54,Daily,4.66
+LINE,55-64,Daily,10.27
+LINE,65-74,Daily,0.0
+LINE,75+,Daily,91.51
+LINE,NET,Daily,15.44
+LINE,18-24,Several times a week,15.38
+LINE,25-34,Several times a week,9.83
+LINE,35-44,Several times a week,13.89
+LINE,45-54,Several times a week,12.43
+LINE,55-64,Several times a week,10.85
+LINE,65-74,Several times a week,60.65
+LINE,75+,Several times a week,8.49
+LINE,NET,Several times a week,17.75
+LINE,18-24,Weekly,31.65
+LINE,25-34,Weekly,2.19
+LINE,35-44,Weekly,17.05
+LINE,45-54,Weekly,24.45
+LINE,55-64,Weekly,16.5
+LINE,65-74,Weekly,3.75
+LINE,75+,Weekly,0.0
+LINE,NET,Weekly,16.97
+LINE,18-24,Fortnightly,8.44
+LINE,25-34,Fortnightly,4.84
+LINE,35-44,Fortnightly,2.34
+LINE,45-54,Fortnightly,18.05
+LINE,55-64,Fortnightly,0.0
+LINE,65-74,Fortnightly,22.79
+LINE,75+,Fortnightly,0.0
+LINE,NET,Fortnightly,8.91
+LINE,18-24,Monthly,12.14
+LINE,25-34,Monthly,0.0
+LINE,35-44,Monthly,6.95
+LINE,45-54,Monthly,0.0
+LINE,55-64,Monthly,7.71
+LINE,65-74,Monthly,5.03
+LINE,75+,Monthly,0.0
+LINE,NET,Monthly,5.05
+LINE,18-24,Less often than monthly,3.92
+LINE,25-34,Less often than monthly,19.82
+LINE,35-44,Less often than monthly,14.04
+LINE,45-54,Less often than monthly,0.91
+LINE,55-64,Less often than monthly,13.79
+LINE,65-74,Less often than monthly,0.0
+LINE,75+,Less often than monthly,0.0
+LINE,NET,Less often than monthly,8.93
+LINE,18-24,Refused + Don't know,0.0
+LINE,25-34,Refused + Don't know,0.0
+LINE,35-44,Refused + Don't know,0.0
+LINE,45-54,Refused + Don't know,0.0
+LINE,55-64,Refused + Don't know,0.0
+LINE,65-74,Refused + Don't know,0.0
+LINE,75+,Refused + Don't know,0.0
+LINE,NET,Refused + Don't know,0.0
+LINE,18-24,At least once a day,28.46
+LINE,25-34,At least once a day,63.33
+LINE,35-44,At least once a day,45.72
+LINE,45-54,At least once a day,44.17
+LINE,55-64,At least once a day,51.15
+LINE,65-74,At least once a day,7.79
+LINE,75+,At least once a day,91.51
+LINE,NET,At least once a day,42.38
+LINE,18-24,NET,100.0
+LINE,25-34,NET,100.0
+LINE,35-44,NET,100.0
+LINE,45-54,NET,100.0
+LINE,55-64,NET,100.0
+LINE,65-74,NET,100.0
+LINE,75+,NET,100.0
+BeReal,18-24,Multiple times a day,16.06
+BeReal,25-34,Multiple times a day,3.23
+BeReal,35-44,Multiple times a day,0.0
+BeReal,45-54,Multiple times a day,10.66
+BeReal,55-64,Multiple times a day,0.0
+BeReal,NET,Multiple times a day,10.25
+BeReal,18-24,Daily,16.6
+BeReal,25-34,Daily,66.12
+BeReal,35-44,Daily,41.41
+BeReal,45-54,Daily,25.42
+BeReal,55-64,Daily,100.0
+BeReal,NET,Daily,35.22
+BeReal,18-24,Several times a week,10.84
+BeReal,25-34,Several times a week,7.43
+BeReal,35-44,Several times a week,14.49
+BeReal,45-54,Several times a week,63.92
+BeReal,55-64,Several times a week,0.0
+BeReal,NET,Several times a week,13.63
+BeReal,18-24,Weekly,9.12
+BeReal,25-34,Weekly,4.54
+BeReal,35-44,Weekly,11.12
+BeReal,45-54,Weekly,0.0
+BeReal,55-64,Weekly,0.0
+BeReal,NET,Weekly,7.19
+BeReal,18-24,Fortnightly,2.81
+BeReal,25-34,Fortnightly,4.99
+BeReal,35-44,Fortnightly,11.44
+BeReal,45-54,Fortnightly,0.0
+BeReal,55-64,Fortnightly,0.0
+BeReal,NET,Fortnightly,4.0
+BeReal,18-24,Monthly,11.03
+BeReal,25-34,Monthly,3.51
+BeReal,35-44,Monthly,0.0
+BeReal,45-54,Monthly,0.0
+BeReal,55-64,Monthly,0.0
+BeReal,NET,Monthly,6.93
+BeReal,18-24,Less often than monthly,33.53
+BeReal,25-34,Less often than monthly,10.17
+BeReal,35-44,Less often than monthly,21.53
+BeReal,45-54,Less often than monthly,0.0
+BeReal,55-64,Less often than monthly,0.0
+BeReal,NET,Less often than monthly,22.78
+BeReal,18-24,Refused + Don't know,0.0
+BeReal,25-34,Refused + Don't know,0.0
+BeReal,35-44,Refused + Don't know,0.0
+BeReal,45-54,Refused + Don't know,0.0
+BeReal,55-64,Refused + Don't know,0.0
+BeReal,NET,Refused + Don't know,0.0
+BeReal,18-24,At least once a day,32.66
+BeReal,25-34,At least once a day,69.35
+BeReal,35-44,At least once a day,41.41
+BeReal,45-54,At least once a day,36.08
+BeReal,55-64,At least once a day,100.0
+BeReal,NET,At least once a day,45.47
+BeReal,18-24,NET,100.0
+BeReal,25-34,NET,100.0
+BeReal,35-44,NET,100.0
+BeReal,45-54,NET,100.0
+BeReal,55-64,NET,100.0
+Clubhouse,18-24,Multiple times a day,0.0
+Clubhouse,25-34,Multiple times a day,0.0
+Clubhouse,35-44,Multiple times a day,13.65
+Clubhouse,45-54,Multiple times a day,28.12
+Clubhouse,55-64,Multiple times a day,0.0
+Clubhouse,65-74,Multiple times a day,0.0
+Clubhouse,NET,Multiple times a day,6.77
+Clubhouse,18-24,Daily,38.33
+Clubhouse,25-34,Daily,65.26
+Clubhouse,35-44,Daily,6.16
+Clubhouse,45-54,Daily,23.47
+Clubhouse,55-64,Daily,0.0
+Clubhouse,65-74,Daily,0.0
+Clubhouse,NET,Daily,32.45
+Clubhouse,18-24,Several times a week,22.33
+Clubhouse,25-34,Several times a week,0.0
+Clubhouse,35-44,Several times a week,10.41
+Clubhouse,45-54,Several times a week,0.0
+Clubhouse,55-64,Several times a week,0.0
+Clubhouse,65-74,Several times a week,0.0
+Clubhouse,NET,Several times a week,8.29
+Clubhouse,18-24,Weekly,0.0
+Clubhouse,25-34,Weekly,16.07
+Clubhouse,35-44,Weekly,41.56
+Clubhouse,45-54,Weekly,0.0
+Clubhouse,55-64,Weekly,0.0
+Clubhouse,65-74,Weekly,0.0
+Clubhouse,NET,Weekly,17.9
+Clubhouse,18-24,Fortnightly,18.68
+Clubhouse,25-34,Fortnightly,18.68
+Clubhouse,35-44,Fortnightly,0.0
+Clubhouse,45-54,Fortnightly,48.41
+Clubhouse,55-64,Fortnightly,0.0
+Clubhouse,65-74,Fortnightly,0.0
+Clubhouse,NET,Fortnightly,14.17
+Clubhouse,18-24,Monthly,17.26
+Clubhouse,25-34,Monthly,0.0
+Clubhouse,35-44,Monthly,22.75
+Clubhouse,45-54,Monthly,0.0
+Clubhouse,55-64,Monthly,15.79
+Clubhouse,65-74,Monthly,0.0
+Clubhouse,NET,Monthly,11.67
+Clubhouse,18-24,Less often than monthly,3.41
+Clubhouse,25-34,Less often than monthly,0.0
+Clubhouse,35-44,Less often than monthly,5.47
+Clubhouse,45-54,Less often than monthly,0.0
+Clubhouse,55-64,Less often than monthly,84.21
+Clubhouse,65-74,Less often than monthly,100.0
+Clubhouse,NET,Less often than monthly,8.75
+Clubhouse,18-24,Refused + Don't know,0.0
+Clubhouse,25-34,Refused + Don't know,0.0
+Clubhouse,35-44,Refused + Don't know,0.0
+Clubhouse,45-54,Refused + Don't know,0.0
+Clubhouse,55-64,Refused + Don't know,0.0
+Clubhouse,65-74,Refused + Don't know,0.0
+Clubhouse,NET,Refused + Don't know,0.0
+Clubhouse,18-24,At least once a day,38.33
+Clubhouse,25-34,At least once a day,65.26
+Clubhouse,35-44,At least once a day,19.81
+Clubhouse,45-54,At least once a day,51.59
+Clubhouse,55-64,At least once a day,0.0
+Clubhouse,65-74,At least once a day,0.0
+Clubhouse,NET,At least once a day,39.22
+Clubhouse,18-24,NET,100.0
+Clubhouse,25-34,NET,100.0
+Clubhouse,35-44,NET,100.0
+Clubhouse,45-54,NET,100.0
+Clubhouse,55-64,NET,100.0
+Clubhouse,65-74,NET,100.0
+Truth Social,18-24,Multiple times a day,0.0
+Truth Social,25-34,Multiple times a day,4.63
+Truth Social,35-44,Multiple times a day,28.75
+Truth Social,45-54,Multiple times a day,3.95
+Truth Social,55-64,Multiple times a day,32.71
+Truth Social,65-74,Multiple times a day,0.0
+Truth Social,75+,Multiple times a day,0.0
+Truth Social,NET,Multiple times a day,13.35
+Truth Social,18-24,Daily,41.44
+Truth Social,25-34,Daily,22.61
+Truth Social,35-44,Daily,0.0
+Truth Social,45-54,Daily,43.57
+Truth Social,55-64,Daily,0.0
+Truth Social,65-74,Daily,0.0
+Truth Social,75+,Daily,100.0
+Truth Social,NET,Daily,21.77
+Truth Social,18-24,Several times a week,14.89
+Truth Social,25-34,Several times a week,38.44
+Truth Social,35-44,Several times a week,11.02
+Truth Social,45-54,Several times a week,32.2
+Truth Social,55-64,Several times a week,0.0
+Truth Social,65-74,Several times a week,0.0
+Truth Social,75+,Several times a week,0.0
+Truth Social,NET,Several times a week,19.0
+Truth Social,18-24,Weekly,29.14
+Truth Social,25-34,Weekly,34.32
+Truth Social,35-44,Weekly,37.21
+Truth Social,45-54,Weekly,0.0
+Truth Social,55-64,Weekly,14.09
+Truth Social,65-74,Weekly,0.0
+Truth Social,75+,Weekly,0.0
+Truth Social,NET,Weekly,23.35
+Truth Social,18-24,Fortnightly,14.52
+Truth Social,25-34,Fortnightly,0.0
+Truth Social,35-44,Fortnightly,0.0
+Truth Social,45-54,Fortnightly,0.0
+Truth Social,55-64,Fortnightly,0.0
+Truth Social,65-74,Fortnightly,0.0
+Truth Social,75+,Fortnightly,0.0
+Truth Social,NET,Fortnightly,2.27
+Truth Social,18-24,Monthly,0.0
+Truth Social,25-34,Monthly,0.0
+Truth Social,35-44,Monthly,17.26
+Truth Social,45-54,Monthly,20.29
+Truth Social,55-64,Monthly,2.47
+Truth Social,65-74,Monthly,100.0
+Truth Social,75+,Monthly,0.0
+Truth Social,NET,Monthly,9.33
+Truth Social,18-24,Less often than monthly,0.0
+Truth Social,25-34,Less often than monthly,0.0
+Truth Social,35-44,Less often than monthly,5.76
+Truth Social,45-54,Less often than monthly,0.0
+Truth Social,55-64,Less often than monthly,50.74
+Truth Social,65-74,Less often than monthly,0.0
+Truth Social,75+,Less often than monthly,0.0
+Truth Social,NET,Less often than monthly,10.92
+Truth Social,18-24,Refused + Don't know,0.0
+Truth Social,25-34,Refused + Don't know,0.0
+Truth Social,35-44,Refused + Don't know,0.0
+Truth Social,45-54,Refused + Don't know,0.0
+Truth Social,55-64,Refused + Don't know,0.0
+Truth Social,65-74,Refused + Don't know,0.0
+Truth Social,75+,Refused + Don't know,0.0
+Truth Social,NET,Refused + Don't know,0.0
+Truth Social,18-24,At least once a day,41.44
+Truth Social,25-34,At least once a day,27.24
+Truth Social,35-44,At least once a day,28.75
+Truth Social,45-54,At least once a day,47.52
+Truth Social,55-64,At least once a day,32.71
+Truth Social,65-74,At least once a day,0.0
+Truth Social,75+,At least once a day,100.0
+Truth Social,NET,At least once a day,35.12
+Truth Social,18-24,NET,100.0
+Truth Social,25-34,NET,100.0
+Truth Social,35-44,NET,100.0
+Truth Social,45-54,NET,100.0
+Truth Social,55-64,NET,100.0
+Truth Social,65-74,NET,100.0
+Truth Social,75+,NET,100.0
+Some other website or app (please specify),18-24,Multiple times a day,0.0
+Some other website or app (please specify),25-34,Multiple times a day,0.0
+Some other website or app (please specify),35-44,Multiple times a day,27.93
+Some other website or app (please specify),45-54,Multiple times a day,24.37
+Some other website or app (please specify),55-64,Multiple times a day,47.71
+Some other website or app (please specify),65-74,Multiple times a day,33.09
+Some other website or app (please specify),75+,Multiple times a day,51.9
+Some other website or app (please specify),NET,Multiple times a day,32.87
+Some other website or app (please specify),18-24,Daily,0.0
+Some other website or app (please specify),25-34,Daily,31.14
+Some other website or app (please specify),35-44,Daily,11.7
+Some other website or app (please specify),45-54,Daily,4.94
+Some other website or app (please specify),55-64,Daily,19.45
+Some other website or app (please specify),65-74,Daily,0.0
+Some other website or app (please specify),75+,Daily,22.26
+Some other website or app (please specify),NET,Daily,13.49
+Some other website or app (please specify),18-24,Several times a week,0.0
+Some other website or app (please specify),25-34,Several times a week,50.7
+Some other website or app (please specify),35-44,Several times a week,32.91
+Some other website or app (please specify),45-54,Several times a week,42.1
+Some other website or app (please specify),55-64,Several times a week,15.16
+Some other website or app (please specify),65-74,Several times a week,16.05
+Some other website or app (please specify),75+,Several times a week,22.23
+Some other website or app (please specify),NET,Several times a week,27.02
+Some other website or app (please specify),18-24,Weekly,100.0
+Some other website or app (please specify),25-34,Weekly,0.0
+Some other website or app (please specify),35-44,Weekly,14.94
+Some other website or app (please specify),45-54,Weekly,16.71
+Some other website or app (please specify),55-64,Weekly,3.43
+Some other website or app (please specify),65-74,Weekly,23.35
+Some other website or app (please specify),75+,Weekly,1.35
+Some other website or app (please specify),NET,Weekly,12.04
+Some other website or app (please specify),18-24,Fortnightly,0.0
+Some other website or app (please specify),25-34,Fortnightly,0.0
+Some other website or app (please specify),35-44,Fortnightly,10.21
+Some other website or app (please specify),45-54,Fortnightly,7.38
+Some other website or app (please specify),55-64,Fortnightly,1.73
+Some other website or app (please specify),65-74,Fortnightly,2.04
+Some other website or app (please specify),75+,Fortnightly,2.27
+Some other website or app (please specify),NET,Fortnightly,3.89
+Some other website or app (please specify),18-24,Monthly,0.0
+Some other website or app (please specify),25-34,Monthly,0.0
+Some other website or app (please specify),35-44,Monthly,0.0
+Some other website or app (please specify),45-54,Monthly,0.0
+Some other website or app (please specify),55-64,Monthly,0.0
+Some other website or app (please specify),65-74,Monthly,3.68
+Some other website or app (please specify),75+,Monthly,0.0
+Some other website or app (please specify),NET,Monthly,0.74
+Some other website or app (please specify),18-24,Less often than monthly,0.0
+Some other website or app (please specify),25-34,Less often than monthly,18.16
+Some other website or app (please specify),35-44,Less often than monthly,2.31
+Some other website or app (please specify),45-54,Less often than monthly,4.5
+Some other website or app (please specify),55-64,Less often than monthly,12.53
+Some other website or app (please specify),65-74,Less often than monthly,21.8
+Some other website or app (please specify),75+,Less often than monthly,0.0
+Some other website or app (please specify),NET,Less often than monthly,9.94
+Some other website or app (please specify),18-24,Refused + Don't know,0.0
+Some other website or app (please specify),25-34,Refused + Don't know,0.0
+Some other website or app (please specify),35-44,Refused + Don't know,0.0
+Some other website or app (please specify),45-54,Refused + Don't know,0.0
+Some other website or app (please specify),55-64,Refused + Don't know,0.0
+Some other website or app (please specify),65-74,Refused + Don't know,0.0
+Some other website or app (please specify),75+,Refused + Don't know,0.0
+Some other website or app (please specify),NET,Refused + Don't know,0.0
+Some other website or app (please specify),18-24,At least once a day,0.0
+Some other website or app (please specify),25-34,At least once a day,31.14
+Some other website or app (please specify),35-44,At least once a day,39.64
+Some other website or app (please specify),45-54,At least once a day,29.31
+Some other website or app (please specify),55-64,At least once a day,67.16
+Some other website or app (please specify),65-74,At least once a day,33.09
+Some other website or app (please specify),75+,At least once a day,74.15
+Some other website or app (please specify),NET,At least once a day,46.36
+Some other website or app (please specify),18-24,NET,100.0
+Some other website or app (please specify),25-34,NET,100.0
+Some other website or app (please specify),35-44,NET,100.0
+Some other website or app (please specify),45-54,NET,100.0
+Some other website or app (please specify),55-64,NET,100.0
+Some other website or app (please specify),65-74,NET,100.0
+Some other website or app (please specify),75+,NET,100.0

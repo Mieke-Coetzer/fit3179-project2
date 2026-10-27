@@ -1,0 +1,19 @@
+﻿Location_Name,Category,Latitude,Longitude
+Greater Sydney,Metro,-33.8688,151.2093
+Greater Melbourne,Metro,-37.8136,144.9631
+Greater Brisbane,Metro,-27.4698,153.0251
+Greater Perth,Metro,-31.9505,115.8605
+Greater Adelaide,Metro,-34.9285,138.6007
+Greater Hobart,Metro,-42.8821,147.3272
+Darwin Urban,Metro,-12.4634,130.8456
+Canberra,Metro,-35.2809,149.13
+Regional NSW (Newcastle / Hunter),Regional,-32.9283,151.7817
+Regional NSW (Wagga Wagga / Riverina),Regional,-35.1082,147.3598
+Regional VIC (Geelong),Regional,-38.1499,144.3617
+Regional VIC (Bendigo),Regional,-36.757,144.2794
+Regional QLD (Townsville),Regional,-19.259,146.8169
+Regional QLD (Cairns),Regional,-16.9186,145.7781
+Regional SA (Mount Gambier),Regional,-37.8319,140.7792
+Regional WA (Bunbury),Regional,-33.3271,115.6414
+Regional TAS (Launceston),Regional,-41.4332,147.1441
+Regional NT (Alice Springs),Regional,-23.698,133.8807
