@@ -1,0 +1,124 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Compare Daily Adoption of 3 Selected Apps Across Age Groups",
+  "data": {
+    "url": "js/data/age_groups_clean.csv"
+  },
+  "params": [
+    {
+      "name": "Select_App_1",
+      "value": "TikTok",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Facebook",
+          "Instagram",
+          "TikTok",
+          "Snapchat",
+          "Facebook Messenger",
+          "YouTube",
+          "WhatsApp",
+          "X",
+          "Discord",
+          "Telegram",
+          "Reddit",
+          "LinkedIn",
+          "FaceTime"
+        ],
+        "name": "App 1: "
+      }
+    },
+    {
+      "name": "Select_App_2",
+      "value": "Facebook",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Facebook",
+          "Instagram",
+          "TikTok",
+          "Snapchat",
+          "Facebook Messenger",
+          "YouTube",
+          "WhatsApp",
+          "X",
+          "Discord",
+          "Telegram",
+          "Reddit",
+          "LinkedIn",
+          "FaceTime"
+        ],
+        "name": "App 2: "
+      }
+    },
+    {
+      "name": "Select_App_3",
+      "value": "LinkedIn",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Facebook",
+          "Instagram",
+          "TikTok",
+          "Snapchat",
+          "Facebook Messenger",
+          "YouTube",
+          "WhatsApp",
+          "X",
+          "Discord",
+          "Telegram",
+          "Reddit",
+          "LinkedIn",
+          "FaceTime"
+        ],
+        "name": "App 3: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.Frequency == 'At least once a day' && datum.Age_Group != 'NET'"
+    },
+    {
+      "filter": "datum.App == Select_App_1 || datum.App == Select_App_2 || datum.App == Select_App_3"
+    }
+  ],
+  "facet": {
+    "column": {
+      "field": "App",
+      "type": "nominal",
+      "title": "Selected Application"
+    }
+  },
+  "spec": {
+    "width": {"step": 20},
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Age_Group",
+        "type": "ordinal",
+        "sort": ["18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75+"],
+        "title": "Age Group",
+        "axis": {"labelAngle": -45}
+      },
+      "y": {
+        "field": "Percentage",
+        "type": "quantitative",
+        "title": "Daily Adoption (%)",
+        "scale": {"domain": [0, 100]}
+      },
+      "color": {
+        "field": "Age_Group",
+        "type": "ordinal",
+        "scale": {"scheme": "tableau10"},
+        "sort": ["18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75+"],
+        "title": "Age Cohort"
+      },
+      "tooltip": [
+        {"field": "App", "type": "nominal", "title": "App"},
+        {"field": "Age_Group", "type": "nominal", "title": "Age Group"},
+        {"field": "Percentage", "type": "quantitative", "title": "Daily Adoption (%)"}
+      ]
+    }
+  }
+}

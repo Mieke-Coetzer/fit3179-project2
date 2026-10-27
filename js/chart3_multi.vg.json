@@ -1,0 +1,48 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Generational App Portfolio Breadth & Core Daily Platform Breakdown (≥50% Penetration)",
+  "data": {
+    "url": "js/data/age_groups_clean.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.Age_Group != 'NET' && datum.Frequency == 'At least once a day' && datum.Percentage >= 50 && indexof(['Facebook', 'Instagram', 'TikTok', 'Snapchat', 'Facebook Messenger', 'YouTube', 'WhatsApp', 'X', 'Discord', 'Telegram', 'Reddit', 'LinkedIn', 'FaceTime'], datum.App) !== -1"
+    }
+  ],
+  "facet": {
+    "field": "Age_Group",
+    "type": "ordinal",
+    "sort": ["18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75+"],
+    "title": "Age Cohort Breakdown"
+  },
+  "spec": {
+    "width": 100,
+    "height": 150,
+    "mark": "bar",
+    "encoding": {
+      "x": {
+        "field": "Percentage",
+        "type": "quantitative",
+        "title": "Daily Penetration (%)"
+      },
+      "y": {
+        "field": "App",
+        "type": "nominal",
+        "sort": "-x",
+        "title": "Application"
+      },
+      "color": {
+        "field": "Age_Group",
+        "type": "nominal",
+        "scale": {"scheme": "tableau10"},
+        "legend": null
+      },
+      "tooltip": [
+        {"field": "App", "type": "nominal", "title": "App"},
+        {"field": "Age_Group", "type": "nominal", "title": "Cohort"},
+        {"field": "Percentage", "type": "quantitative", "title": "Daily Penetration (%)", "format": ".1f"}
+      ]
+    }
+  },
+  "columns": 7
+}

@@ -1,0 +1,78 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Engagement Frequency Breakdown Across Age Groups",
+  "data": {
+    "url": "js/data/age_groups_clean.csv"
+  },
+  "params": [
+    {
+      "name": "Selected_App",
+      "value": "Instagram",
+      "bind": {
+        "input": "select",
+        "options": [
+          "Facebook",
+          "Instagram",
+          "TikTok",
+          "Snapchat",
+          "Facebook Messenger",
+          "YouTube",
+          "WeChat",
+          "WhatsApp",
+          "X",
+          "Discord",
+          "Telegram",
+          "LinkedIn",
+          "Pinterest",
+          "FaceTime",
+          "Clubhouse"
+        ],
+        "name": "Choose App: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "datum.App == Selected_App && datum.Age_Group != 'NET' && datum.Frequency != 'NET' && datum.Frequency != 'At least once a day' && datum.Frequency != \"Refused + Don't know\""
+    },
+    {
+      "calculate": "datum.Frequency == 'Less often than monthly' ? 1 : datum.Frequency == 'Monthly' ? 2 : datum.Frequency == 'Fortnightly' ? 3 : datum.Frequency == 'Weekly' ? 4 : datum.Frequency == 'Several times a week' ? 5 : datum.Frequency == 'Daily' ? 6 : datum.Frequency == 'Multiple times a day' ? 7 : 0",
+      "as": "FreqRank"
+    }
+  ],
+  "mark": "bar",
+  "encoding": {
+    "y": {
+      "field": "Age_Group",
+      "type": "ordinal",
+      "sort": ["18-24", "25-34", "35-44", "45-54", "55-64", "65-74", "75+"],
+      "title": "Age Cohort"
+    },
+    "x": {
+      "field": "Percentage",
+      "type": "quantitative",
+      "title": "Proportion (%)",
+      "stack": "normalize",
+      "axis": {"format": "%"}
+    },
+    "color": {
+      "field": "Frequency",
+      "type": "nominal",
+      "title": "Usage Frequency",
+      "sort": {"field": "FreqRank", "order": "ascending"},
+      "scale": {
+        "scheme": "purplebluegreen"
+      }
+    },
+    "order": {
+      "field": "FreqRank",
+      "type": "quantitative",
+      "sort": "ascending"
+    },
+    "tooltip": [
+      {"field": "Age_Group", "type": "ordinal", "title": "Age Group"},
+      {"field": "Frequency", "type": "nominal", "title": "Frequency"},
+      {"field": "Percentage", "type": "quantitative", "title": "Percentage (%)", "format": ".1f"}
+    ]
+  }
+}

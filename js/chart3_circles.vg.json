@@ -1,0 +1,89 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v5.json",
+  "title": "Generational App Portfolio Breadth Scatter",
+  "data": {
+    "url": "js/data/age_groups_clean.csv"
+  },
+  "transform": [
+    {
+      "filter": "datum.Age_Group != 'NET' && datum.Frequency == 'At least once a day' && datum.Percentage >= 50 && indexof(['Facebook', 'Instagram', 'TikTok', 'Snapchat', 'Facebook Messenger', 'YouTube', 'WhatsApp', 'X', 'Discord', 'Telegram', 'Reddit', 'LinkedIn', 'FaceTime'], datum.App) !== -1"
+    },
+    {
+      "aggregate": [
+        {"op": "count", "field": "App", "as": "Core_App_Count"}
+      ],
+      "groupby": ["Age_Group"]
+    },
+    {
+      "calculate": "datum.Age_Group == '18-24' ? 1 : datum.Age_Group == '25-34' ? 2 : datum.Age_Group == '35-44' ? 3 : datum.Age_Group == '45-54' ? 4 : datum.Age_Group == '55-64' ? 5 : datum.Age_Group == '65-74' ? 6 : 7",
+      "as": "x_pos"
+    },
+    {
+      "calculate": "datum.Age_Group == '18-24' ? 35 : datum.Age_Group == '25-34' ? 70 : datum.Age_Group == '35-44' ? 30 : datum.Age_Group == '45-54' ? 80 : datum.Age_Group == '55-64' ? 40 : datum.Age_Group == '65-74' ? 65 : 45",
+      "as": "y_scatter"
+    }
+  ],
+  "width": 400,
+  "height": 200,
+  "layer": [
+    {
+      "mark": {
+        "type": "circle",
+        "opacity": 1,
+        "filled": true
+      },
+      "encoding": {
+        "x": {
+          "field": "x_pos",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {"domain": [0, 8]}
+        },
+        "y": {
+          "field": "y_scatter",
+          "type": "quantitative",
+          "axis": null,
+          "scale": {"domain": [0, 100]}
+        },
+        "size": {
+          "field": "Core_App_Count",
+          "type": "quantitative",
+          "scale": {"range": [1500, 7000]},
+          "legend": null
+        },
+        "color": {
+          "field": "Age_Group",
+          "type": "nominal",
+          "scale": {"scheme": "tableau10"},
+          "legend": null
+        },
+        "tooltip": [
+          {"field": "Age_Group", "type": "nominal", "title": "Age Cohort"},
+          {"field": "Core_App_Count", "type": "quantitative", "title": "Core Daily Apps Count"}
+        ]
+      }
+    },
+    {
+      "mark": {
+        "type": "text",
+        "fontWeight": "bold",
+        "fontSize": 13,
+        "fill": "white"
+      },
+      "encoding": {
+        "x": {
+          "field": "x_pos",
+          "type": "quantitative"
+        },
+        "y": {
+          "field": "y_scatter",
+          "type": "quantitative"
+        },
+        "text": {
+          "field": "Age_Group",
+          "type": "nominal"
+        }
+      }
+    }
+  ]
+}
